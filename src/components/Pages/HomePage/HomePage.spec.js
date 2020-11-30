@@ -1,5 +1,6 @@
 import PageHeader from './PageHeader'
-import HomePage from './HomePage'
+import PageBody from './PageBody'
+import HomePage, { matches } from './HomePage'
 
 describe('(Component) HomePage', () => {
     it('should render component', () => {
@@ -10,6 +11,7 @@ describe('(Component) HomePage', () => {
                 <div className='col-md-12 col-lg-7 mx-md-auto'>
                     <div className='mt-4'>
                         <PageHeader />
+                        <PageBody content={matches} />
                     </div>
                 </div>
             </div>
