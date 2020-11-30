@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { premierLeagueLogo } from 'images'
+import images from 'images'
 
 import PageHeader from './PageHeader'
 
@@ -11,7 +11,7 @@ describe('(Component) PageHeader', () => {
             <div className='page-header w-100'>
                 <div className='row'>
                     <div className='col-3 col-md-2 col-lg-1'>
-                        <img src={premierLeagueLogo} />
+                        <img src={images['premierLeagueLogo']} />
                     </div>
                     <div className='col-6 col-md-6'>
                         <div className='row'>
