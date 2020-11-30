@@ -1,0 +1,32 @@
+.page-header {
+    color: #ffffff;
+    height: 120px;
+    padding: 10px;
+    background-color: #3f1052;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+    a {
+        color: #ffffff;
+        &:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+}
+
+.matchday-description {
+    opacity: 0.5;
+}
+
+.item {
+    width: 150px;
+    height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+
+    &:hover {
+        cursor: pointer;
+        background: #390e4a;
+    }
+}

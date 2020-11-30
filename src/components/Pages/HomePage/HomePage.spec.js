@@ -1,3 +1,4 @@
+import PageHeader from './PageHeader'
 import HomePage from './HomePage'
 
 describe('(Component) HomePage', () => {
@@ -5,7 +6,13 @@ describe('(Component) HomePage', () => {
         const wrapper = shallow(<HomePage />)
 
         expect(wrapper.equals(
-            <div>Home Page</div>
+            <div className='row container-fluid no-gutters'>
+                <div className='col-md-12 col-lg-7 mx-md-auto'>
+                    <div className='mt-4'>
+                        <PageHeader />
+                    </div>
+                </div>
+            </div>
         )).to.equal(true)
     })
 })
