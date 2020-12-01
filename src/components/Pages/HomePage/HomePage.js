@@ -1,5 +1,6 @@
 import PageHeader from './PageHeader'
 import PageBody from './PageBody'
+import PageFooter from './PageFooter'
 
 export const matches = [
     [
@@ -58,6 +59,7 @@ const HomePage = () => (
             <div className='mt-4'>
                 <PageHeader />
                 <PageBody content={matches} />
+                <PageFooter />
             </div>
         </div>
     </div>

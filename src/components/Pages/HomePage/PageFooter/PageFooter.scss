@@ -1,0 +1,18 @@
+.expand-btn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    background-color: #3f1052;
+}
+
+.footer-btn {
+    color: #000000;
+    &:hover {
+        color: #000000;
+        text-decoration: none;
+    }
+}
