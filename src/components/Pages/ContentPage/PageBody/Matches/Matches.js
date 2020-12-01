@@ -1,5 +1,7 @@
+import { PageBody, matches } from 'components/Pages/HomePage'
+
 const Matches = () => (
-    <div>MATCHES</div>
+    <PageBody content={matches} />
 )
 
 export default Matches

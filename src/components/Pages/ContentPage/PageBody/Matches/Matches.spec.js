@@ -1,3 +1,5 @@
+import { PageBody, matches } from 'components/Pages/HomePage'
+
 import Matches from './Matches'
 
 describe('(Component) Matches', () => {
@@ -5,7 +7,7 @@ describe('(Component) Matches', () => {
         const wrapper = shallow(<Matches />)
 
         expect(wrapper.equals(
-            <div>MATCHES</div>
+            <PageBody content={matches} />
         )).to.equal(true)
     })
 })
