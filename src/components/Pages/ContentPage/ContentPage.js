@@ -1,5 +1,11 @@
+import PageHeader from './PageHeader'
+
 const ContentPage = () => (
-    <div>Content Page</div>
+    <div className='row no-gutters'>
+        <div className='col-md-12'>
+            <PageHeader />
+        </div>
+    </div>
 )
 
 export default ContentPage

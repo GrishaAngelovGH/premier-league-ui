@@ -1,3 +1,4 @@
+import PageHeader from './PageHeader'
 import ContentPage from './ContentPage'
 
 describe('(Component) ContentPage', () => {
@@ -5,7 +6,11 @@ describe('(Component) ContentPage', () => {
         const wrapper = shallow(<ContentPage />)
 
         expect(wrapper.equals(
-            <div>Content Page</div>
+            <div className='row no-gutters'>
+                <div className='col-md-12'>
+                    <PageHeader />
+                </div>
+            </div>
         )).to.equal(true)
     })
 })
