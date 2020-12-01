@@ -1,4 +1,14 @@
 .content-header {
+    padding: 16px;
     height: 100px;
     background: #3f1052;
+    color: #ffffff;
+    justify-content: space-between;
+    a {
+        color: #ffffff;
+        &:hover {
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
 }

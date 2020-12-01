@@ -1,5 +1,7 @@
-import './PageHeader.scss'
 import { Link } from 'react-router-dom'
+
+import Menu from './Menu'
+import './PageHeader.scss'
 
 export const ArrowLeft = () => (
     <svg width='2em' height='2em' viewBox='0 0 16 16' className='bi bi-arrow-left-short' fill='white' xmlns='http://www.w3.org/2000/svg'>
@@ -16,13 +18,15 @@ export const CloseBtn = () => (
 )
 
 const PageHeader = () => (
-    <div className='row no-gutters content-header text-white justify-content-between p-3'>
+    <div className='row flex-nowrap overflow-auto no-gutters content-header'>
         <div className='d-flex'>
             <Link to='/'>
                 <ArrowLeft />
             </Link>
             <div className='m-1'>Premier League</div>
         </div>
+
+        <Menu />
 
         <CloseBtn />
     </div>
