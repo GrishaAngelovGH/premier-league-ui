@@ -26,8 +26,16 @@ import news2 from './news2.jpeg'
 import news3 from './news3.jpeg'
 import news4 from './news4.jpeg'
 
+import win from './win.svg'
+import draw from './draw.svg'
+import loss from './loss.svg'
+
 export const news = {
     news1, news2, news3, news4
+}
+
+export const statuses = {
+    win, draw, loss
 }
 
 export default {
