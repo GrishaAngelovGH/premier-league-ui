@@ -2,7 +2,7 @@
 import { Switch, Route, Redirect } from 'react-router-dom'
 
 import Matches from './Matches'
-import News from './News'
+import News, { newsItems } from './News'
 import Standings from './Standings'
 import Stats from './Stats'
 import Players from './Players'
@@ -19,7 +19,7 @@ describe('(Component) PageBody', () => {
                     <Redirect to='/content/matches' />
                 </Route>
                 <Route path='/content/matches' children={<Matches />} />
-                <Route path='/content/news' children={<News />} />
+                <Route path='/content/news' children={<News newsItems={newsItems} />} />
                 <Route path='/content/standings' children={<Standings />} />
                 <Route path='/content/stats' children={<Stats />} />
                 <Route path='/content/players' children={<Players />} />

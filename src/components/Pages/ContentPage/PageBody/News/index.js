@@ -1,3 +1,5 @@
-import News from './News'
+import News, { newsItems } from './News'
+
+export { newsItems }
 
 export default News

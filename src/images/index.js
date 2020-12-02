@@ -13,6 +13,15 @@ import sheffield from './sheffield.png'
 import southampton from './southampton.png'
 import westBrom from './west-brom.png'
 
+import news1 from './news1.jpeg'
+import news2 from './news2.jpeg'
+import news3 from './news3.jpeg'
+import news4 from './news4.jpeg'
+
+export const news = {
+    news1, news2, news3, news4
+}
+
 export default {
     premierLeagueLogo,
     brighton,
