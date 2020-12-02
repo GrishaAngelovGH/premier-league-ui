@@ -30,6 +30,8 @@ import win from './win.svg'
 import draw from './draw.svg'
 import loss from './loss.svg'
 
+import players from './players.png'
+
 export const news = {
     news1, news2, news3, news4
 }
@@ -37,6 +39,8 @@ export const news = {
 export const statuses = {
     win, draw, loss
 }
+
+export { players }
 
 export default {
     premierLeagueLogo,
