@@ -27,26 +27,26 @@ describe('(Component) Standings', () => {
                 <div className='col-md-9 col-lg-6'>
                     <div className='bg-secondary p-2 text-white'>
                         Season
-                <div className="dropdown">
-                            <button className="btn btn-primary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <div className='dropdown'>
+                            <button className='btn btn-primary btn-sm dropdown-toggle' type='button' id='dropdownMenuButton' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
                                 2020-21
                             </button>
                         </div>
                     </div>
 
-                    <table className="table table-hover table-sm table-responsive-sm">
+                    <table className='table table-hover table-sm table-responsive-sm'>
                         <thead className='text-secondary'>
                             <tr>
-                                <th scope="col">Club</th>
-                                <th scope="col">MP</th>
-                                <th scope="col">W</th>
-                                <th scope="col">D</th>
-                                <th scope="col">L</th>
-                                <th scope="col">GF</th>
-                                <th scope="col">GA</th>
-                                <th scope="col">GD</th>
-                                <th scope="col">Pts</th>
-                                <th scope="col">Last 5</th>
+                                <th scope='col'>Club</th>
+                                <th scope='col'>MP</th>
+                                <th scope='col'>W</th>
+                                <th scope='col'>D</th>
+                                <th scope='col'>L</th>
+                                <th scope='col'>GF</th>
+                                <th scope='col'>GA</th>
+                                <th scope='col'>GD</th>
+                                <th scope='col'>Pts</th>
+                                <th scope='col'>Last 5</th>
                             </tr>
                         </thead>
                         <tbody>
