@@ -1,5 +1,5 @@
 
-import { Switch, Route, Redirect } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 
 import Matches from './Matches'
 import News, { newsItems } from './News'
@@ -14,16 +14,14 @@ describe('(Component) PageBody', () => {
         const wrapper = shallow(<PageBody />)
 
         expect(wrapper.equals(
-            <Switch>
-                <Route exact path='/content'>
-                    <Redirect to='/content/matches' />
-                </Route>
-                <Route path='/content/matches' children={<Matches />} />
-                <Route path='/content/news' children={<News newsItems={newsItems} />} />
-                <Route path='/content/standings' children={<Standings standingItems={standingItems} />} />
-                <Route path='/content/stats' children={<Stats statsItems={statsItems} />} />
-                <Route path='/content/players' children={<Players />} />
-            </Switch>
+            <Routes>
+                <Route path='/' element={<Navigate to='/content/matches' />} />
+                <Route path='/matches' element={<Matches />} />
+                <Route path='/news' element={<News newsItems={newsItems} />} />
+                <Route path='/standings' element={<Standings standingItems={standingItems} />} />
+                <Route path='/stats' element={<Stats statsItems={statsItems} />} />
+                <Route path='/players' element={<Players />} />
+            </Routes>
         )).to.equal(true)
     })
 })
