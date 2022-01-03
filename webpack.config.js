@@ -1,5 +1,6 @@
 const path = require('path')
 
+const CopyWebpackPlugin = require("copy-webpack-plugin")
 const HtmlWebPackPlugin = require('html-webpack-plugin')
 const InterpolateHtmlPlugin = require('interpolate-html-plugin')
 
@@ -41,21 +42,34 @@ module.exports = {
             },
             {
                 test: /\.(svg|png|jpe?g|gif)$/i,
-                use: [
-                    {
-                        loader: 'file-loader',
-                    },
-                ],
+                type: 'asset/resource'
             },
         ]
     },
     plugins: [
         new HtmlWebPackPlugin({
+            favicon: path.resolve(__dirname, 'public/favicon.ico'),
             template: path.resolve(__dirname, 'public/index.html'),
             filename: 'index.html'
         }),
-        new InterpolateHtmlPlugin({ // require "html-webpack-plugin": "4.0.0-alpha"
-            'PUBLIC_URL': '/public'
+        new InterpolateHtmlPlugin({
+            'PUBLIC_URL': '.'
+        }),
+        new CopyWebpackPlugin({
+            patterns: [
+                {
+                    from: 'public/manifest.json',
+                    to: '.'
+                },
+                {
+                    from: 'public/logo192.png',
+                    to: '.'
+                },
+                {
+                    from: 'public/logo512.png',
+                    to: '.'
+                }
+            ]
         })
     ]
 }
