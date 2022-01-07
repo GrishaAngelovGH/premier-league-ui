@@ -1,5 +1,5 @@
 import Standings from './Standings'
-import { statuses } from 'images'
+import Table from './Table'
 
 describe('(Component) Standings', () => {
     it('should render component', () => {
@@ -27,53 +27,17 @@ describe('(Component) Standings', () => {
                 <div className='col-md-9 col-lg-6'>
                     <div className='bg-secondary p-2 text-white'>
                         Season
-                <div className='dropdown'>
+                        <div className='dropdown'>
                             <button className='btn btn-primary btn-sm dropdown-toggle' type='button' id='dropdownMenuButton' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
-                                2020-21
+                                2021-22
                             </button>
                         </div>
                     </div>
 
-                    <table className='table table-hover table-sm table-responsive-sm'>
-                        <thead className='text-secondary'>
-                            <tr>
-                                <th scope='col'>Club</th>
-                                <th scope='col'>MP</th>
-                                <th scope='col'>W</th>
-                                <th scope='col'>D</th>
-                                <th scope='col'>L</th>
-                                <th scope='col'>GF</th>
-                                <th scope='col'>GA</th>
-                                <th scope='col'>GD</th>
-                                <th scope='col'>Pts</th>
-                                <th scope='col'>Last 5</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <th>
-                                    <span className='pr-2'>{1}</span>
-                                    <img src={'img1'} width={25} />
-                                    <span className='pl-2'>Tottenham</span>
-                                </th>
-                                <td>{10}</td>
-                                <td>{6}</td>
-                                <td>{3}</td>
-                                <td>{1}</td>
-                                <td>{21}</td>
-                                <td>{9}</td>
-                                <td>{12}</td>
-                                <td>{21}</td>
-                                <td>
-                                    <img src={statuses['draw']} />
-                                    <img src={statuses['win']} />
-                                    <img src={statuses['loss']} />
-                                    <img src={statuses['win']} />
-                                    <img src={statuses['win']} />
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <Table
+                        rows={standingItems}
+                        columns={['Club', 'MP', 'W', 'D', 'L', 'GF', 'GA', 'GD', 'Pts', 'Last 5']}
+                    />
                 </div>
             </div >
         )).to.equal(true)
