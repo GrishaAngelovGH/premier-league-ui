@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="row flex-nowrap overflow-auto no-gutters content-header"
+      >
+        <div
+          class="d-flex"
+        >
+          <a
+            href="/"
+          >
+            <svg
+              class="bi bi-arrow-left-short"
+              fill="white"
+              height="2em"
+              viewBox="0 0 16 16"
+              width="2em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </a>
+          <div
+            class="m-1"
+          >
+            Premier League
+          </div>
+        </div>
+        <div
+          class="row flex-nowrap overflow-auto"
+        >
+          <div
+            class="col-md-12 mt-2"
+          >
+            <div
+              class="row flex-nowrap overflow-auto ml-1"
+            >
+              <a
+                href="/content/matches"
+              >
+                <div
+                  class="border-bottom border-white item"
+                  id="0"
+                >
+                  matches
+                </div>
+              </a>
+              <a
+                href="/content/news"
+              >
+                <div
+                  class="item"
+                  id="1"
+                >
+                  news
+                </div>
+              </a>
+              <a
+                href="/content/standings"
+              >
+                <div
+                  class="item"
+                  id="2"
+                >
+                  standings
+                </div>
+              </a>
+              <a
+                href="/content/stats"
+              >
+                <div
+                  class="item"
+                  id="3"
+                >
+                  stats
+                </div>
+              </a>
+              <a
+                href="/content/players"
+              >
+                <div
+                  class="item"
+                  id="4"
+                >
+                  players
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <a
+          href="/"
+        >
+          <span
+            role="button"
+          >
+            <svg
+              class="bi bi-x"
+              fill="white"
+              height="2em"
+              viewBox="0 0 16 16"
+              width="2em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </a>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="row flex-nowrap overflow-auto no-gutters content-header"
+    >
+      <div
+        class="d-flex"
+      >
+        <a
+          href="/"
+        >
+          <svg
+            class="bi bi-arrow-left-short"
+            fill="white"
+            height="2em"
+            viewBox="0 0 16 16"
+            width="2em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </a>
+        <div
+          class="m-1"
+        >
+          Premier League
+        </div>
+      </div>
+      <div
+        class="row flex-nowrap overflow-auto"
+      >
+        <div
+          class="col-md-12 mt-2"
+        >
+          <div
+            class="row flex-nowrap overflow-auto ml-1"
+          >
+            <a
+              href="/content/matches"
+            >
+              <div
+                class="border-bottom border-white item"
+                id="0"
+              >
+                matches
+              </div>
+            </a>
+            <a
+              href="/content/news"
+            >
+              <div
+                class="item"
+                id="1"
+              >
+                news
+              </div>
+            </a>
+            <a
+              href="/content/standings"
+            >
+              <div
+                class="item"
+                id="2"
+              >
+                standings
+              </div>
+            </a>
+            <a
+              href="/content/stats"
+            >
+              <div
+                class="item"
+                id="3"
+              >
+                stats
+              </div>
+            </a>
+            <a
+              href="/content/players"
+            >
+              <div
+                class="item"
+                id="4"
+              >
+                players
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a
+        href="/"
+      >
+        <span
+          role="button"
+        >
+          <svg
+            class="bi bi-x"
+            fill="white"
+            height="2em"
+            viewBox="0 0 16 16"
+            width="2em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+              fill-rule="evenodd"
+            />
+          </svg>
+        </span>
+      </a>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
