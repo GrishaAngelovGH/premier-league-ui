@@ -61,5 +61,8 @@
       "^components/(.+)$": "<rootDir>/src/components/$1",
       "^images$": "<rootDir>/src/images/"
     }
+  },
+  "engines": { 
+    "node": "16.x" 
   }
 }
