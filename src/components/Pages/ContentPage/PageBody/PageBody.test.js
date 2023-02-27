@@ -3,12 +3,12 @@ import { MemoryRouter } from 'react-router-dom'
 
 import PageBody from './PageBody'
 
-test('should render component', () => {
-    const container = render(
+test('should render ContentPage/PageBody component', () => {
+    const view = render(
         <MemoryRouter initialEntries={['/matches']}>
             <PageBody />
         </MemoryRouter>
     )
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })

@@ -2,7 +2,7 @@ import { render } from '@testing-library/react'
 
 import Timetable from './Timetable'
 
-test('should render component', () => {
+test('should render Timetable component', () => {
     const content = [
         [
             {
@@ -22,7 +22,7 @@ test('should render component', () => {
         ]
     ]
 
-    const container = render(<Timetable content={content} />)
+    const view = render(<Timetable content={content} />)
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })

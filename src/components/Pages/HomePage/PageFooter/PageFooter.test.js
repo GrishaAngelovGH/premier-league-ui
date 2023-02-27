@@ -3,8 +3,8 @@ import { MemoryRouter } from 'react-router-dom'
 
 import PageFooter from './PageFooter'
 
-test('should render component', () => {
-    const container = render(<PageFooter />, { wrapper: MemoryRouter })
+test('should render PageFooter component', () => {
+    const view = render(<PageFooter />, { wrapper: MemoryRouter })
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })

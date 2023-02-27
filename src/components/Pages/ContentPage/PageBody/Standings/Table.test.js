@@ -2,8 +2,8 @@ import { render } from '@testing-library/react'
 
 import Table from './Table'
 
-test('should render component', () => {
-    const container = render(
+test('should render Table component', () => {
+    const view = render(
         <Table
             rows={[
                 {
@@ -25,5 +25,5 @@ test('should render component', () => {
         />
     )
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })

@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render component 1`] = `
+exports[`should render Players component 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="row no-gutters"
+        class="row no-gutters vh-100 players-bg"
       >
         <div
           class="col-md-12"
@@ -21,7 +21,7 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="row no-gutters"
+      class="row no-gutters vh-100 players-bg"
     >
       <div
         class="col-md-12"

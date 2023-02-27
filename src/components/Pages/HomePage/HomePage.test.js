@@ -3,8 +3,8 @@ import { MemoryRouter } from 'react-router-dom'
 
 import HomePage from './HomePage'
 
-test('should render component', () => {
-    const container = render(<HomePage />, { wrapper: MemoryRouter })
+test('should render HomePage component', () => {
+    const view = render(<HomePage />, { wrapper: MemoryRouter })
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })

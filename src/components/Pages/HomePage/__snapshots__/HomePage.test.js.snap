@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render component 1`] = `
+exports[`should render HomePage component 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -21,25 +21,25 @@ Object {
                 class="row"
               >
                 <div
-                  class="col-3 col-md-2 col-lg-1"
+                  class="col-2 col-md-1"
                 >
                   <img
                     src="pl-logo.png"
                   />
                 </div>
                 <div
-                  class="col-6 col-md-6"
+                  class="col-10"
                 >
-                  <div
-                    class="row"
+                  <h5
+                    class="m-0"
                   >
                     Premier League
-                  </div>
-                  <div
-                    class="row matchday-description"
+                  </h5>
+                  <h5
+                    class="m-0 matchday-description"
                   >
                     Matchday 10 of 38
-                  </div>
+                  </h5>
                 </div>
               </div>
               <div
@@ -52,49 +52,34 @@ Object {
                     class="row flex-nowrap overflow-auto ml-1"
                   >
                     <a
+                      class="border-bottom border-white item mx-2"
                       href="/content"
                     >
-                      <div
-                        class="border-bottom border-white item"
-                      >
-                        matches
-                      </div>
+                      matches
                     </a>
                     <a
+                      class="item mx-2"
                       href="/content"
                     >
-                      <div
-                        class="item"
-                      >
-                        news
-                      </div>
+                      news
                     </a>
                     <a
+                      class="item mx-2"
                       href="/content"
                     >
-                      <div
-                        class="item"
-                      >
-                        standings
-                      </div>
+                      standings
                     </a>
                     <a
+                      class="item mx-2"
                       href="/content"
                     >
-                      <div
-                        class="item"
-                      >
-                        stats
-                      </div>
+                      stats
                     </a>
                     <a
+                      class="item mx-2"
                       href="/content"
                     >
-                      <div
-                        class="item"
-                      >
-                        players
-                      </div>
+                      players
                     </a>
                   </div>
                 </div>
@@ -579,25 +564,25 @@ Object {
               class="row"
             >
               <div
-                class="col-3 col-md-2 col-lg-1"
+                class="col-2 col-md-1"
               >
                 <img
                   src="pl-logo.png"
                 />
               </div>
               <div
-                class="col-6 col-md-6"
+                class="col-10"
               >
-                <div
-                  class="row"
+                <h5
+                  class="m-0"
                 >
                   Premier League
-                </div>
-                <div
-                  class="row matchday-description"
+                </h5>
+                <h5
+                  class="m-0 matchday-description"
                 >
                   Matchday 10 of 38
-                </div>
+                </h5>
               </div>
             </div>
             <div
@@ -610,49 +595,34 @@ Object {
                   class="row flex-nowrap overflow-auto ml-1"
                 >
                   <a
+                    class="border-bottom border-white item mx-2"
                     href="/content"
                   >
-                    <div
-                      class="border-bottom border-white item"
-                    >
-                      matches
-                    </div>
+                    matches
                   </a>
                   <a
+                    class="item mx-2"
                     href="/content"
                   >
-                    <div
-                      class="item"
-                    >
-                      news
-                    </div>
+                    news
                   </a>
                   <a
+                    class="item mx-2"
                     href="/content"
                   >
-                    <div
-                      class="item"
-                    >
-                      standings
-                    </div>
+                    standings
                   </a>
                   <a
+                    class="item mx-2"
                     href="/content"
                   >
-                    <div
-                      class="item"
-                    >
-                      stats
-                    </div>
+                    stats
                   </a>
                   <a
+                    class="item mx-2"
                     href="/content"
                   >
-                    <div
-                      class="item"
-                    >
-                      players
-                    </div>
+                    players
                   </a>
                 </div>
               </div>

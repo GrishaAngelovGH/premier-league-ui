@@ -2,8 +2,8 @@ import { render } from '@testing-library/react'
 
 import Matches from './Matches'
 
-test('should render component', () => {
-    const container = render(<Matches />)
+test('should render Matches component', () => {
+    const view = render(<Matches />)
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })

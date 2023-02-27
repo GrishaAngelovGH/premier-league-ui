@@ -3,8 +3,8 @@ import { MemoryRouter } from 'react-router-dom'
 
 import Menu from './Menu'
 
-test('should render component', () => {
-    const container = render(<Menu />, { wrapper: MemoryRouter })
+test('should render Menu component', () => {
+    const view = render(<Menu />, { wrapper: MemoryRouter })
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })

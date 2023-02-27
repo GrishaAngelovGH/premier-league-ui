@@ -9,16 +9,14 @@ const PageHeader = () => {
     return (
         <div className='page-header w-100'>
             <div className='row'>
-                <div className='col-3 col-md-2 col-lg-1'>
+                <div className='col-2 col-md-1'>
                     <img src={images['premierLeagueLogo']} />
                 </div>
-                <div className='col-6 col-md-6'>
-                    <div className='row'>
-                        Premier League
-                    </div>
-                    <div className='row matchday-description'>
+                <div className='col-10'>
+                    <h5 className='m-0'>Premier League</h5>
+                    <h5 className='m-0 matchday-description'>
                         Matchday 10 of 38
-                    </div>
+                    </h5>
                 </div>
             </div>
 
@@ -27,11 +25,11 @@ const PageHeader = () => {
                     <div className='row flex-nowrap overflow-auto ml-1'>
                         {
                             categories.map((v, i) => {
-                                const classnames = i === 0 ? 'border-bottom border-white item' : 'item'
+                                const linkClass = i === 0 ? 'border-bottom border-white item mx-2' : 'item mx-2'
 
                                 return (
-                                    <Link to='/content' key={i}>
-                                        <div className={classnames}>{v}</div>
+                                    <Link to='/content' key={i} className={linkClass}>
+                                        {v}
                                     </Link>
                                 )
                             })

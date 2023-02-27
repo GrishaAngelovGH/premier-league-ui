@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react'
 import PageBody from './PageBody'
 
-test('should render component', () => {
+test('should render HomePage/PageBody component', () => {
     const matches = [
         [
             {
@@ -21,7 +21,7 @@ test('should render component', () => {
         ]
     ]
 
-    const container = render(<PageBody content={matches} />)
+    const view = render(<PageBody content={matches} />)
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })

@@ -2,7 +2,7 @@ import { render } from '@testing-library/react'
 
 import Standings from './Standings'
 
-test('should render component', () => {
+test('should render Standings component', () => {
     const standingItems = [
         {
             position: 1,
@@ -20,7 +20,7 @@ test('should render component', () => {
         }
     ]
 
-    const container = render(<Standings standingItems={standingItems} />)
+    const view = render(<Standings standingItems={standingItems} />)
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })

@@ -2,7 +2,7 @@ import { render } from '@testing-library/react'
 
 import News from './News'
 
-test('should render component', () => {
+test('should render News component', () => {
     const newsItems = [
         {
             title: 'Guardiola rules out new Manchester City signings in January',
@@ -12,7 +12,7 @@ test('should render component', () => {
         }
     ]
 
-    const container = render(<News newsItems={newsItems} />)
+    const view = render(<News newsItems={newsItems} />)
 
-    expect(container).toMatchSnapshot()
+    expect(view).toMatchSnapshot()
 })

@@ -20,18 +20,24 @@ class Menu extends Component {
                     <div className='row flex-nowrap overflow-auto ml-1'>
                         {
                             categories.map((v, i) => {
-                                const classnames = i === tabIndex ? 'border-bottom border-white item' : 'item'
+                                const linkClass = i === tabIndex ? 'border-bottom border-white item mx-2' : 'item mx-2'
 
                                 return (
-                                    <Link to={`/content/${v}`} key={i} onClick={this.handleTabClick}>
-                                        <div id={i} className={classnames}>{v}</div>
+                                    <Link
+                                        key={i}
+                                        id={i}
+                                        to={`/content/${v}`}
+                                        className={linkClass}
+                                        onClick={this.handleTabClick}
+                                    >
+                                        {v}
                                     </Link>
                                 )
                             })
                         }
                     </div>
                 </div>
-            </div>
+            </div >
         )
     }
 }
