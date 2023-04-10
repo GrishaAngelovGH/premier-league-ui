@@ -12,7 +12,7 @@ Object {
           class="col-md-12"
         >
           <img
-            class="img-fluid"
+            class="w-100"
             src="players.png"
           />
         </div>
@@ -27,7 +27,7 @@ Object {
         class="col-md-12"
       >
         <img
-          class="img-fluid"
+          class="w-100"
           src="players.png"
         />
       </div>
