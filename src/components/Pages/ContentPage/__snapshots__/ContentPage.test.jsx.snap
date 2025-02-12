@@ -7,10 +7,10 @@ exports[`should render ContentPage component 1`] = `
     <div>
       <div>
         <div
-          class="row flex-nowrap overflow-auto no-gutters content-header"
+          class="flex justify-between items-center bg-purple-900 text-white"
         >
           <div
-            class="d-flex"
+            class="flex items-center p-4"
           >
             <a
               data-discover="true"
@@ -30,9 +30,7 @@ exports[`should render ContentPage component 1`] = `
                 />
               </svg>
             </a>
-            <div
-              class="m-1"
-            >
+            <div>
               Premier League
             </div>
           </div>
@@ -239,10 +237,10 @@ exports[`should render ContentPage component 1`] = `
   "container": <div>
     <div>
       <div
-        class="row flex-nowrap overflow-auto no-gutters content-header"
+        class="flex justify-between items-center bg-purple-900 text-white"
       >
         <div
-          class="d-flex"
+          class="flex items-center p-4"
         >
           <a
             data-discover="true"
@@ -262,9 +260,7 @@ exports[`should render ContentPage component 1`] = `
               />
             </svg>
           </a>
-          <div
-            class="m-1"
-          >
+          <div>
             Premier League
           </div>
         </div>

@@ -6,10 +6,10 @@ exports[`should render ContentPage/PageHeader component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row flex-nowrap overflow-auto no-gutters content-header"
+        class="flex justify-between items-center bg-purple-900 text-white"
       >
         <div
-          class="d-flex"
+          class="flex items-center p-4"
         >
           <a
             data-discover="true"
@@ -29,9 +29,7 @@ exports[`should render ContentPage/PageHeader component 1`] = `
               />
             </svg>
           </a>
-          <div
-            class="m-1"
-          >
+          <div>
             Premier League
           </div>
         </div>
@@ -114,10 +112,10 @@ exports[`should render ContentPage/PageHeader component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row flex-nowrap overflow-auto no-gutters content-header"
+      class="flex justify-between items-center bg-purple-900 text-white"
     >
       <div
-        class="d-flex"
+        class="flex items-center p-4"
       >
         <a
           data-discover="true"
@@ -137,9 +135,7 @@ exports[`should render ContentPage/PageHeader component 1`] = `
             />
           </svg>
         </a>
-        <div
-          class="m-1"
-        >
+        <div>
           Premier League
         </div>
       </div>
