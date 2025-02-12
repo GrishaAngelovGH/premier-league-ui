@@ -4,7 +4,11 @@ import { MemoryRouter } from 'react-router-dom'
 import PageFooter from './PageFooter'
 
 test('should render PageFooter component', () => {
-    const view = render(<PageFooter />, { wrapper: MemoryRouter })
+	const view = render(
+		<MemoryRouter>
+			<PageFooter />
+		</MemoryRouter>
+	)
 
-    expect(view).toMatchSnapshot()
+	expect(view).toMatchSnapshot()
 })

@@ -6,115 +6,73 @@ exports[`should render PageFooter component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row"
+        class="flex flex-col justify-center items-center"
       >
         <div
-          class="col-md-12"
+          class="w-full text-center border p-2 text-gray-500"
         >
-          <div
-            class="row no-gutters justify-content-between border p-5 text-secondary"
-          >
-            <div>
-              All times are in Eastern European Time
-            </div>
-            <div>
-              Feedback
-            </div>
+          <div>
+            All times are in Eastern European Time
           </div>
-          <a
-            class="footer-btn"
-            data-discover="true"
-            href="/content"
-          >
-            <div
-              class="row no-gutters justify-content-center border p-3"
-            >
-              <div
-                class="expand-btn mt-n4"
-              >
-                <svg
-                  class="bi bi-chevron-down"
-                  fill="white"
-                  height="1em"
-                  viewBox="0 0 16 16"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
-                    fill-rule="evenodd"
-                  />
-                </svg>
-              </div>
-            </div>
-            <div
-              class="row no-gutters justify-content-center mt-n3"
-            >
-              <span
-                class="mt-n1"
-              >
-                See more
-              </span>
-            </div>
-          </a>
         </div>
+        <a
+          class="mt-2 flex flex-col items-center text-center text-decoration-none"
+          data-discover="true"
+          href="/content"
+        >
+          <svg
+            class="bg-purple-900 text-white w-[30px] h-[30px] rounded-full p-2"
+            fill=" white"
+            height="1em"
+            viewBox="0 0 16 16"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+              fill-rule="evenodd"
+            />
+          </svg>
+          <div>
+            See more
+          </div>
+        </a>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="row"
+      class="flex flex-col justify-center items-center"
     >
       <div
-        class="col-md-12"
+        class="w-full text-center border p-2 text-gray-500"
       >
-        <div
-          class="row no-gutters justify-content-between border p-5 text-secondary"
-        >
-          <div>
-            All times are in Eastern European Time
-          </div>
-          <div>
-            Feedback
-          </div>
+        <div>
+          All times are in Eastern European Time
         </div>
-        <a
-          class="footer-btn"
-          data-discover="true"
-          href="/content"
-        >
-          <div
-            class="row no-gutters justify-content-center border p-3"
-          >
-            <div
-              class="expand-btn mt-n4"
-            >
-              <svg
-                class="bi bi-chevron-down"
-                fill="white"
-                height="1em"
-                viewBox="0 0 16 16"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
-                  fill-rule="evenodd"
-                />
-              </svg>
-            </div>
-          </div>
-          <div
-            class="row no-gutters justify-content-center mt-n3"
-          >
-            <span
-              class="mt-n1"
-            >
-              See more
-            </span>
-          </div>
-        </a>
       </div>
+      <a
+        class="mt-2 flex flex-col items-center text-center text-decoration-none"
+        data-discover="true"
+        href="/content"
+      >
+        <svg
+          class="bg-purple-900 text-white w-[30px] h-[30px] rounded-full p-2"
+          fill=" white"
+          height="1em"
+          viewBox="0 0 16 16"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+            fill-rule="evenodd"
+          />
+        </svg>
+        <div>
+          See more
+        </div>
+      </a>
     </div>
   </div>,
   "debug": [Function],
