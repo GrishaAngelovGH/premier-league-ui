@@ -6,111 +6,95 @@ exports[`should render Menu component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row flex-nowrap overflow-auto"
+        class="flex gap-4 overflow-auto justify-evenly"
       >
-        <div
-          class="col-md-12 mt-2"
+        <a
+          class="text-decoration-none text-white text-uppercase border-b border-white hover:border-b-0"
+          data-discover="true"
+          href="/content/matches"
+          id="0"
         >
-          <div
-            class="row flex-nowrap overflow-auto ml-1"
-          >
-            <a
-              class="border-bottom border-white item mx-2"
-              data-discover="true"
-              href="/content/matches"
-              id="0"
-            >
-              matches
-            </a>
-            <a
-              class="item mx-2"
-              data-discover="true"
-              href="/content/news"
-              id="1"
-            >
-              news
-            </a>
-            <a
-              class="item mx-2"
-              data-discover="true"
-              href="/content/standings"
-              id="2"
-            >
-              standings
-            </a>
-            <a
-              class="item mx-2"
-              data-discover="true"
-              href="/content/stats"
-              id="3"
-            >
-              stats
-            </a>
-            <a
-              class="item mx-2"
-              data-discover="true"
-              href="/content/players"
-              id="4"
-            >
-              players
-            </a>
-          </div>
-        </div>
+          matches
+        </a>
+        <a
+          class="text-decoration-none text-white text-uppercase border-b-0"
+          data-discover="true"
+          href="/content/news"
+          id="1"
+        >
+          news
+        </a>
+        <a
+          class="text-decoration-none text-white text-uppercase border-b-0"
+          data-discover="true"
+          href="/content/standings"
+          id="2"
+        >
+          standings
+        </a>
+        <a
+          class="text-decoration-none text-white text-uppercase border-b-0"
+          data-discover="true"
+          href="/content/stats"
+          id="3"
+        >
+          stats
+        </a>
+        <a
+          class="text-decoration-none text-white text-uppercase border-b-0"
+          data-discover="true"
+          href="/content/players"
+          id="4"
+        >
+          players
+        </a>
       </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="row flex-nowrap overflow-auto"
+      class="flex gap-4 overflow-auto justify-evenly"
     >
-      <div
-        class="col-md-12 mt-2"
+      <a
+        class="text-decoration-none text-white text-uppercase border-b border-white hover:border-b-0"
+        data-discover="true"
+        href="/content/matches"
+        id="0"
       >
-        <div
-          class="row flex-nowrap overflow-auto ml-1"
-        >
-          <a
-            class="border-bottom border-white item mx-2"
-            data-discover="true"
-            href="/content/matches"
-            id="0"
-          >
-            matches
-          </a>
-          <a
-            class="item mx-2"
-            data-discover="true"
-            href="/content/news"
-            id="1"
-          >
-            news
-          </a>
-          <a
-            class="item mx-2"
-            data-discover="true"
-            href="/content/standings"
-            id="2"
-          >
-            standings
-          </a>
-          <a
-            class="item mx-2"
-            data-discover="true"
-            href="/content/stats"
-            id="3"
-          >
-            stats
-          </a>
-          <a
-            class="item mx-2"
-            data-discover="true"
-            href="/content/players"
-            id="4"
-          >
-            players
-          </a>
-        </div>
-      </div>
+        matches
+      </a>
+      <a
+        class="text-decoration-none text-white text-uppercase border-b-0"
+        data-discover="true"
+        href="/content/news"
+        id="1"
+      >
+        news
+      </a>
+      <a
+        class="text-decoration-none text-white text-uppercase border-b-0"
+        data-discover="true"
+        href="/content/standings"
+        id="2"
+      >
+        standings
+      </a>
+      <a
+        class="text-decoration-none text-white text-uppercase border-b-0"
+        data-discover="true"
+        href="/content/stats"
+        id="3"
+      >
+        stats
+      </a>
+      <a
+        class="text-decoration-none text-white text-uppercase border-b-0"
+        data-discover="true"
+        href="/content/players"
+        id="4"
+      >
+        players
+      </a>
     </div>
   </div>,
   "debug": [Function],

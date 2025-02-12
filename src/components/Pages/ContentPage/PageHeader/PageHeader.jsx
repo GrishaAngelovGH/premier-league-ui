@@ -22,9 +22,9 @@ export const CloseBtn = () => (
 
 const PageHeader = () => (
 	<div className='flex justify-between items-center bg-purple-900 text-white'>
-		<div className='flex items-center p-4'>
+		<div className='flex items-center'>
 			<ArrowLeft />
-			<div>Premier League</div>
+			<div className='hidden md:block'>Premier League</div>
 		</div>
 
 		<Menu />

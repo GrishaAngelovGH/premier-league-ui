@@ -1,45 +1,36 @@
-import { Component } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-class Menu extends Component {
-    state = {
-        tabIndex: 0
-    }
+const Menu = () => {
+	const [tabIndex, setTabIndex] = useState(0)
 
-    handleTabClick = ({ target }) => {
-        this.setState({ tabIndex: parseInt(target.id) })
-    }
+	const handleTabClick = ({ target }) => {
+		setTabIndex(parseInt(target.id))
+	}
 
-    render() {
-        const { tabIndex } = this.state
-        const categories = ['matches', 'news', 'standings', 'stats', 'players']
+	const categories = ['matches', 'news', 'standings', 'stats', 'players']
 
-        return (
-            <div className='row flex-nowrap overflow-auto'>
-                <div className='col-md-12 mt-2'>
-                    <div className='row flex-nowrap overflow-auto ml-1'>
-                        {
-                            categories.map((v, i) => {
-                                const linkClass = i === tabIndex ? 'border-bottom border-white item mx-2' : 'item mx-2'
+	return (
+		<div className='flex gap-4 overflow-auto justify-evenly'>
+			{
+				categories.map((v, i) => {
+					const linkClass = i === tabIndex ? 'border-b border-white hover:border-b-0' : 'border-b-0'
 
-                                return (
-                                    <Link
-                                        key={i}
-                                        id={i}
-                                        to={`/content/${v}`}
-                                        className={linkClass}
-                                        onClick={this.handleTabClick}
-                                    >
-                                        {v}
-                                    </Link>
-                                )
-                            })
-                        }
-                    </div>
-                </div>
-            </div >
-        )
-    }
+					return (
+						<Link
+							key={i}
+							id={i}
+							to={`/content/${v}`}
+							className={`text-decoration-none text-white text-uppercase ${linkClass}`}
+							onClick={handleTabClick}
+						>
+							{v}
+						</Link>
+					)
+				})
+			}
+		</div>
+	)
 }
 
 export default Menu
