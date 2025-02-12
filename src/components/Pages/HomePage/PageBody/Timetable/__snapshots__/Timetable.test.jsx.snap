@@ -1,7 +1,7 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render HomePage/PageBody component 1`] = `
-Object {
+exports[`should render Timetable component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
@@ -30,7 +30,7 @@ Object {
                       class="col-2 col-md-2"
                     >
                       <img
-                        src="crystal-palace.png"
+                        src="/src/images/crystal-palace.png"
                         width="25"
                       />
                     </div>
@@ -52,7 +52,7 @@ Object {
                       class="col-2 col-md-2"
                     >
                       <img
-                        src="newcastle.png"
+                        src="/src/images/newcastle.png"
                         width="25"
                       />
                     </div>
@@ -96,18 +96,20 @@ Object {
                       class="col-2 col-md-2"
                     >
                       <img
-                        src="everton.png"
+                        src="/src/images/brighton.png"
                         width="25"
                       />
                     </div>
                     <div
                       class="col-8 col-md-8"
                     >
-                      Everton
+                      Brighton
                     </div>
                     <div
                       class="col-1 col-md-1"
-                    />
+                    >
+                      1
+                    </div>
                   </div>
                   <div
                     class="row justify-content-center m-1"
@@ -116,28 +118,30 @@ Object {
                       class="col-2 col-md-2"
                     >
                       <img
-                        src="leeds.png"
+                        src="/src/images/liverpool.png"
                         width="25"
                       />
                     </div>
                     <div
                       class="col-8 col-md-8"
                     >
-                      Leeds United
+                      Liverpool
                     </div>
                     <div
                       class="col-1 col-md-1"
-                    />
+                    >
+                      3
+                    </div>
                   </div>
                 </div>
                 <div
                   class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
                 >
                   <div>
-                    Today
+                    FT
                   </div>
                   <div>
-                    19:30
+                    Yesterday
                   </div>
                 </div>
               </div>
@@ -173,7 +177,7 @@ Object {
                     class="col-2 col-md-2"
                   >
                     <img
-                      src="crystal-palace.png"
+                      src="/src/images/crystal-palace.png"
                       width="25"
                     />
                   </div>
@@ -195,7 +199,7 @@ Object {
                     class="col-2 col-md-2"
                   >
                     <img
-                      src="newcastle.png"
+                      src="/src/images/newcastle.png"
                       width="25"
                     />
                   </div>
@@ -239,18 +243,20 @@ Object {
                     class="col-2 col-md-2"
                   >
                     <img
-                      src="everton.png"
+                      src="/src/images/brighton.png"
                       width="25"
                     />
                   </div>
                   <div
                     class="col-8 col-md-8"
                   >
-                    Everton
+                    Brighton
                   </div>
                   <div
                     class="col-1 col-md-1"
-                  />
+                  >
+                    1
+                  </div>
                 </div>
                 <div
                   class="row justify-content-center m-1"
@@ -259,28 +265,30 @@ Object {
                     class="col-2 col-md-2"
                   >
                     <img
-                      src="leeds.png"
+                      src="/src/images/liverpool.png"
                       width="25"
                     />
                   </div>
                   <div
                     class="col-8 col-md-8"
                   >
-                    Leeds United
+                    Liverpool
                   </div>
                   <div
                     class="col-1 col-md-1"
-                  />
+                  >
+                    3
+                  </div>
                 </div>
               </div>
               <div
                 class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
               >
                 <div>
-                  Today
+                  FT
                 </div>
                 <div>
-                  19:30
+                  Yesterday
                 </div>
               </div>
             </div>

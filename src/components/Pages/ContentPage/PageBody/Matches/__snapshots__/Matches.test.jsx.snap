@@ -1,7 +1,7 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render ContentPage/PageBody component 1`] = `
-Object {
+exports[`should render Matches component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
@@ -30,7 +30,7 @@ Object {
                       class="col-2 col-md-2"
                     >
                       <img
-                        src="crystal-palace.png"
+                        src="/src/images/crystal-palace.png"
                         width="25"
                       />
                     </div>
@@ -52,7 +52,7 @@ Object {
                       class="col-2 col-md-2"
                     >
                       <img
-                        src="newcastle.png"
+                        src="/src/images/newcastle.png"
                         width="25"
                       />
                     </div>
@@ -96,7 +96,7 @@ Object {
                       class="col-2 col-md-2"
                     >
                       <img
-                        src="brighton.png"
+                        src="/src/images/brighton.png"
                         width="25"
                       />
                     </div>
@@ -118,7 +118,7 @@ Object {
                       class="col-2 col-md-2"
                     >
                       <img
-                        src="liverpool.png"
+                        src="/src/images/liverpool.png"
                         width="25"
                       />
                     </div>
@@ -166,7 +166,7 @@ Object {
                       class="col-2 col-md-2"
                     >
                       <img
-                        src="man-city.png"
+                        src="/src/images/man-city.png"
                         width="25"
                       />
                     </div>
@@ -188,7 +188,7 @@ Object {
                       class="col-2 col-md-2"
                     >
                       <img
-                        src="burnley.png"
+                        src="/src/images/burnley.png"
                         width="25"
                       />
                     </div>
@@ -232,7 +232,7 @@ Object {
                       class="col-2 col-md-2"
                     >
                       <img
-                        src="everton.png"
+                        src="/src/images/everton.png"
                         width="25"
                       />
                     </div>
@@ -252,7 +252,7 @@ Object {
                       class="col-2 col-md-2"
                     >
                       <img
-                        src="leeds.png"
+                        src="/src/images/leeds.png"
                         width="25"
                       />
                     </div>
@@ -298,7 +298,7 @@ Object {
                       class="col-2 col-md-2"
                     >
                       <img
-                        src="west-brom.png"
+                        src="/src/images/west-brom.png"
                         width="25"
                       />
                     </div>
@@ -318,7 +318,7 @@ Object {
                       class="col-2 col-md-2"
                     >
                       <img
-                        src="sheffield.png"
+                        src="/src/images/sheffield.png"
                         width="25"
                       />
                     </div>
@@ -360,7 +360,7 @@ Object {
                       class="col-2 col-md-2"
                     >
                       <img
-                        src="southampton.png"
+                        src="/src/images/southampton.png"
                         width="25"
                       />
                     </div>
@@ -380,7 +380,7 @@ Object {
                       class="col-2 col-md-2"
                     >
                       <img
-                        src="man-utd.png"
+                        src="/src/images/man-utd.png"
                         width="25"
                       />
                     </div>
@@ -437,7 +437,7 @@ Object {
                     class="col-2 col-md-2"
                   >
                     <img
-                      src="crystal-palace.png"
+                      src="/src/images/crystal-palace.png"
                       width="25"
                     />
                   </div>
@@ -459,7 +459,7 @@ Object {
                     class="col-2 col-md-2"
                   >
                     <img
-                      src="newcastle.png"
+                      src="/src/images/newcastle.png"
                       width="25"
                     />
                   </div>
@@ -503,7 +503,7 @@ Object {
                     class="col-2 col-md-2"
                   >
                     <img
-                      src="brighton.png"
+                      src="/src/images/brighton.png"
                       width="25"
                     />
                   </div>
@@ -525,7 +525,7 @@ Object {
                     class="col-2 col-md-2"
                   >
                     <img
-                      src="liverpool.png"
+                      src="/src/images/liverpool.png"
                       width="25"
                     />
                   </div>
@@ -573,7 +573,7 @@ Object {
                     class="col-2 col-md-2"
                   >
                     <img
-                      src="man-city.png"
+                      src="/src/images/man-city.png"
                       width="25"
                     />
                   </div>
@@ -595,7 +595,7 @@ Object {
                     class="col-2 col-md-2"
                   >
                     <img
-                      src="burnley.png"
+                      src="/src/images/burnley.png"
                       width="25"
                     />
                   </div>
@@ -639,7 +639,7 @@ Object {
                     class="col-2 col-md-2"
                   >
                     <img
-                      src="everton.png"
+                      src="/src/images/everton.png"
                       width="25"
                     />
                   </div>
@@ -659,7 +659,7 @@ Object {
                     class="col-2 col-md-2"
                   >
                     <img
-                      src="leeds.png"
+                      src="/src/images/leeds.png"
                       width="25"
                     />
                   </div>
@@ -705,7 +705,7 @@ Object {
                     class="col-2 col-md-2"
                   >
                     <img
-                      src="west-brom.png"
+                      src="/src/images/west-brom.png"
                       width="25"
                     />
                   </div>
@@ -725,7 +725,7 @@ Object {
                     class="col-2 col-md-2"
                   >
                     <img
-                      src="sheffield.png"
+                      src="/src/images/sheffield.png"
                       width="25"
                     />
                   </div>
@@ -767,7 +767,7 @@ Object {
                     class="col-2 col-md-2"
                   >
                     <img
-                      src="southampton.png"
+                      src="/src/images/southampton.png"
                       width="25"
                     />
                   </div>
@@ -787,7 +787,7 @@ Object {
                     class="col-2 col-md-2"
                   >
                     <img
-                      src="man-utd.png"
+                      src="/src/images/man-utd.png"
                       width="25"
                     />
                   </div>

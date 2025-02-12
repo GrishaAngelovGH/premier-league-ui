@@ -1,54 +1,43 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`should render Menu component 1`] = `
-Object {
+exports[`should render News component 1`] = `
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
       <div
-        class="row flex-nowrap overflow-auto"
+        class="row no-gutters justify-content-center mt-3"
       >
         <div
-          class="col-md-12 mt-2"
+          class="col-md-9 col-lg-6"
         >
           <div
-            class="row flex-nowrap overflow-auto ml-1"
+            class="row border rounded p-2"
           >
-            <a
-              class="border-bottom border-white item mx-2"
-              href="/content/matches"
-              id="0"
+            <div
+              class="col-md-9"
             >
-              matches
-            </a>
-            <a
-              class="item mx-2"
-              href="/content/news"
-              id="1"
+              <a
+                href="#/content/news"
+              >
+                Guardiola rules out new Manchester City signings in January
+              </a>
+              <div
+                class="text-secondary small"
+              >
+                Goal.com
+                 
+                4 days ago
+              </div>
+            </div>
+            <div
+              class="col-md-2"
             >
-              news
-            </a>
-            <a
-              class="item mx-2"
-              href="/content/standings"
-              id="2"
-            >
-              standings
-            </a>
-            <a
-              class="item mx-2"
-              href="/content/stats"
-              id="3"
-            >
-              stats
-            </a>
-            <a
-              class="item mx-2"
-              href="/content/players"
-              id="4"
-            >
-              players
-            </a>
+              <img
+                class="rounded"
+                src="news1"
+              />
+            </div>
           </div>
         </div>
       </div>
@@ -56,49 +45,38 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="row flex-nowrap overflow-auto"
+      class="row no-gutters justify-content-center mt-3"
     >
       <div
-        class="col-md-12 mt-2"
+        class="col-md-9 col-lg-6"
       >
         <div
-          class="row flex-nowrap overflow-auto ml-1"
+          class="row border rounded p-2"
         >
-          <a
-            class="border-bottom border-white item mx-2"
-            href="/content/matches"
-            id="0"
+          <div
+            class="col-md-9"
           >
-            matches
-          </a>
-          <a
-            class="item mx-2"
-            href="/content/news"
-            id="1"
+            <a
+              href="#/content/news"
+            >
+              Guardiola rules out new Manchester City signings in January
+            </a>
+            <div
+              class="text-secondary small"
+            >
+              Goal.com
+               
+              4 days ago
+            </div>
+          </div>
+          <div
+            class="col-md-2"
           >
-            news
-          </a>
-          <a
-            class="item mx-2"
-            href="/content/standings"
-            id="2"
-          >
-            standings
-          </a>
-          <a
-            class="item mx-2"
-            href="/content/stats"
-            id="3"
-          >
-            stats
-          </a>
-          <a
-            class="item mx-2"
-            href="/content/players"
-            id="4"
-          >
-            players
-          </a>
+            <img
+              class="rounded"
+              src="news1"
+            />
+          </div>
         </div>
       </div>
     </div>

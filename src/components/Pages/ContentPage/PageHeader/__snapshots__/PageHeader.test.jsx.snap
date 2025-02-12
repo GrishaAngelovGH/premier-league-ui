@@ -1,7 +1,7 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`should render ContentPage/PageHeader component 1`] = `
-Object {
+{
   "asFragment": [Function],
   "baseElement": <body>
     <div>
@@ -12,6 +12,7 @@ Object {
           class="d-flex"
         >
           <a
+            data-discover="true"
             href="/"
           >
             <svg
@@ -45,6 +46,7 @@ Object {
             >
               <a
                 class="border-bottom border-white item mx-2"
+                data-discover="true"
                 href="/content/matches"
                 id="0"
               >
@@ -52,6 +54,7 @@ Object {
               </a>
               <a
                 class="item mx-2"
+                data-discover="true"
                 href="/content/news"
                 id="1"
               >
@@ -59,6 +62,7 @@ Object {
               </a>
               <a
                 class="item mx-2"
+                data-discover="true"
                 href="/content/standings"
                 id="2"
               >
@@ -66,6 +70,7 @@ Object {
               </a>
               <a
                 class="item mx-2"
+                data-discover="true"
                 href="/content/stats"
                 id="3"
               >
@@ -73,6 +78,7 @@ Object {
               </a>
               <a
                 class="item mx-2"
+                data-discover="true"
                 href="/content/players"
                 id="4"
               >
@@ -82,6 +88,7 @@ Object {
           </div>
         </div>
         <a
+          data-discover="true"
           href="/"
         >
           <span
@@ -113,6 +120,7 @@ Object {
         class="d-flex"
       >
         <a
+          data-discover="true"
           href="/"
         >
           <svg
@@ -146,6 +154,7 @@ Object {
           >
             <a
               class="border-bottom border-white item mx-2"
+              data-discover="true"
               href="/content/matches"
               id="0"
             >
@@ -153,6 +162,7 @@ Object {
             </a>
             <a
               class="item mx-2"
+              data-discover="true"
               href="/content/news"
               id="1"
             >
@@ -160,6 +170,7 @@ Object {
             </a>
             <a
               class="item mx-2"
+              data-discover="true"
               href="/content/standings"
               id="2"
             >
@@ -167,6 +178,7 @@ Object {
             </a>
             <a
               class="item mx-2"
+              data-discover="true"
               href="/content/stats"
               id="3"
             >
@@ -174,6 +186,7 @@ Object {
             </a>
             <a
               class="item mx-2"
+              data-discover="true"
               href="/content/players"
               id="4"
             >
@@ -183,6 +196,7 @@ Object {
         </div>
       </div>
       <a
+        data-discover="true"
         href="/"
       >
         <span

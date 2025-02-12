@@ -1,0 +1,168 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`should render Menu component 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="row flex-nowrap overflow-auto"
+      >
+        <div
+          class="col-md-12 mt-2"
+        >
+          <div
+            class="row flex-nowrap overflow-auto ml-1"
+          >
+            <a
+              class="border-bottom border-white item mx-2"
+              data-discover="true"
+              href="/content/matches"
+              id="0"
+            >
+              matches
+            </a>
+            <a
+              class="item mx-2"
+              data-discover="true"
+              href="/content/news"
+              id="1"
+            >
+              news
+            </a>
+            <a
+              class="item mx-2"
+              data-discover="true"
+              href="/content/standings"
+              id="2"
+            >
+              standings
+            </a>
+            <a
+              class="item mx-2"
+              data-discover="true"
+              href="/content/stats"
+              id="3"
+            >
+              stats
+            </a>
+            <a
+              class="item mx-2"
+              data-discover="true"
+              href="/content/players"
+              id="4"
+            >
+              players
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="row flex-nowrap overflow-auto"
+    >
+      <div
+        class="col-md-12 mt-2"
+      >
+        <div
+          class="row flex-nowrap overflow-auto ml-1"
+        >
+          <a
+            class="border-bottom border-white item mx-2"
+            data-discover="true"
+            href="/content/matches"
+            id="0"
+          >
+            matches
+          </a>
+          <a
+            class="item mx-2"
+            data-discover="true"
+            href="/content/news"
+            id="1"
+          >
+            news
+          </a>
+          <a
+            class="item mx-2"
+            data-discover="true"
+            href="/content/standings"
+            id="2"
+          >
+            standings
+          </a>
+          <a
+            class="item mx-2"
+            data-discover="true"
+            href="/content/stats"
+            id="3"
+          >
+            stats
+          </a>
+          <a
+            class="item mx-2"
+            data-discover="true"
+            href="/content/players"
+            id="4"
+          >
+            players
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
