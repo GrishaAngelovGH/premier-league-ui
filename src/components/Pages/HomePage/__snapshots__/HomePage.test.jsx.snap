@@ -74,137 +74,57 @@ exports[`should render HomePage component 1`] = `
               </a>
             </div>
           </div>
-          <div
-            class="row no-gutters"
-          >
+          <div>
             <div
-              class="col-md-12"
+              class="flex flex-col md:flex-row text-sm md:text-base"
             >
               <div
-                class="row no-gutters"
+                class="md:w-1/2 border"
               >
                 <div
-                  class="col-md-6 border"
+                  class="flex justify-between cursor-pointer hover:bg-gray-200"
                 >
                   <div
-                    class="row no-gutters row-item"
+                    class="p-2 flex flex-col"
                   >
                     <div
-                      class="col-8 col-md-8 p-2"
+                      class="flex justify-center items-center gap-2 m-1 w-[200px]"
                     >
+                      <img
+                        class="w-[30px] h-[30px]"
+                        src="/src/images/crystal-palace.png"
+                      />
                       <div
-                        class="row justify-content-center m-1"
+                        class="w-[120px]"
                       >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/crystal-palace.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Crystal Palace
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        >
-                          0
-                        </div>
+                        Crystal Palace
                       </div>
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/newcastle.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Newcastle
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        >
-                          2
-                        </div>
+                      <div>
+                        0
                       </div>
                     </div>
                     <div
-                      class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
+                      class="flex justify-center items-center gap-2 m-1 w-[200px]"
                     >
-                      <div>
-                        FT
+                      <img
+                        class="w-[30px] h-[30px]"
+                        src="/src/images/newcastle.png"
+                      />
+                      <div
+                        class="w-[120px]"
+                      >
+                        Newcastle
                       </div>
                       <div>
-                        Yesterday
+                        2
                       </div>
                     </div>
                   </div>
-                </div>
-                <div
-                  class="col-md-6 border"
-                >
                   <div
-                    class="row no-gutters row-item"
+                    class="flex-1"
                   >
                     <div
-                      class="col-8 col-md-8 p-2"
-                    >
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/brighton.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Brighton
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        >
-                          1
-                        </div>
-                      </div>
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/liverpool.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Liverpool
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        >
-                          3
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
+                      class="h-full flex flex-col justify-center items-center"
                     >
                       <div>
                         FT
@@ -217,64 +137,52 @@ exports[`should render HomePage component 1`] = `
                 </div>
               </div>
               <div
-                class="row no-gutters"
+                class="md:w-1/2 border"
               >
                 <div
-                  class="col-md-6 border"
+                  class="flex justify-between cursor-pointer hover:bg-gray-200"
                 >
                   <div
-                    class="row no-gutters row-item"
+                    class="p-2 flex flex-col"
                   >
                     <div
-                      class="col-8 col-md-8 p-2"
+                      class="flex justify-center items-center gap-2 m-1 w-[200px]"
                     >
+                      <img
+                        class="w-[30px] h-[30px]"
+                        src="/src/images/brighton.png"
+                      />
                       <div
-                        class="row justify-content-center m-1"
+                        class="w-[120px]"
                       >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/man-city.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Man. City
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        >
-                          2
-                        </div>
+                        Brighton
                       </div>
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/burnley.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Burnley
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        >
-                          1
-                        </div>
+                      <div>
+                        1
                       </div>
                     </div>
                     <div
-                      class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
+                      class="flex justify-center items-center gap-2 m-1 w-[200px]"
+                    >
+                      <img
+                        class="w-[30px] h-[30px]"
+                        src="/src/images/liverpool.png"
+                      />
+                      <div
+                        class="w-[120px]"
+                      >
+                        Liverpool
+                      </div>
+                      <div>
+                        3
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1"
+                  >
+                    <div
+                      class="h-full flex flex-col justify-center items-center"
                     >
                       <div>
                         FT
@@ -285,58 +193,112 @@ exports[`should render HomePage component 1`] = `
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+            <div
+              class="flex flex-col md:flex-row text-sm md:text-base"
+            >
+              <div
+                class="md:w-1/2 border"
+              >
                 <div
-                  class="col-md-6 border"
+                  class="flex justify-between cursor-pointer hover:bg-gray-200"
                 >
                   <div
-                    class="row no-gutters row-item"
+                    class="p-2 flex flex-col"
                   >
                     <div
-                      class="col-8 col-md-8 p-2"
+                      class="flex justify-center items-center gap-2 m-1 w-[200px]"
                     >
+                      <img
+                        class="w-[30px] h-[30px]"
+                        src="/src/images/man-city.png"
+                      />
                       <div
-                        class="row justify-content-center m-1"
+                        class="w-[120px]"
                       >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/everton.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Everton
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        />
+                        Man. City
                       </div>
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/leeds.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Leeds United
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        />
+                      <div>
+                        2
                       </div>
                     </div>
                     <div
-                      class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
+                      class="flex justify-center items-center gap-2 m-1 w-[200px]"
+                    >
+                      <img
+                        class="w-[30px] h-[30px]"
+                        src="/src/images/burnley.png"
+                      />
+                      <div
+                        class="w-[120px]"
+                      >
+                        Burnley
+                      </div>
+                      <div>
+                        1
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1"
+                  >
+                    <div
+                      class="h-full flex flex-col justify-center items-center"
+                    >
+                      <div>
+                        FT
+                      </div>
+                      <div>
+                        Yesterday
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="md:w-1/2 border"
+              >
+                <div
+                  class="flex justify-between cursor-pointer hover:bg-gray-200"
+                >
+                  <div
+                    class="p-2 flex flex-col"
+                  >
+                    <div
+                      class="flex justify-center items-center gap-2 m-1 w-[200px]"
+                    >
+                      <img
+                        class="w-[30px] h-[30px]"
+                        src="/src/images/everton.png"
+                      />
+                      <div
+                        class="w-[120px]"
+                      >
+                        Everton
+                      </div>
+                      <div />
+                    </div>
+                    <div
+                      class="flex justify-center items-center gap-2 m-1 w-[200px]"
+                    >
+                      <img
+                        class="w-[30px] h-[30px]"
+                        src="/src/images/leeds.png"
+                      />
+                      <div
+                        class="w-[120px]"
+                      >
+                        Leeds United
+                      </div>
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1"
+                  >
+                    <div
+                      class="h-full flex flex-col justify-center items-center"
                     >
                       <div>
                         Today
@@ -348,61 +310,53 @@ exports[`should render HomePage component 1`] = `
                   </div>
                 </div>
               </div>
+            </div>
+            <div
+              class="flex flex-col md:flex-row text-sm md:text-base"
+            >
               <div
-                class="row no-gutters"
+                class="md:w-1/2 border"
               >
                 <div
-                  class="col-md-6 border"
+                  class="flex justify-between cursor-pointer hover:bg-gray-200"
                 >
                   <div
-                    class="row no-gutters row-item"
+                    class="p-2 flex flex-col"
                   >
                     <div
-                      class="col-8 col-md-8 p-2"
+                      class="flex justify-center items-center gap-2 m-1 w-[200px]"
                     >
+                      <img
+                        class="w-[30px] h-[30px]"
+                        src="/src/images/west-brom.png"
+                      />
                       <div
-                        class="row justify-content-center m-1"
+                        class="w-[120px]"
                       >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/west-brom.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          West Brom
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        />
+                        West Brom
                       </div>
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/sheffield.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Sheffield United
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        />
-                      </div>
+                      <div />
                     </div>
                     <div
-                      class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
+                      class="flex justify-center items-center gap-2 m-1 w-[200px]"
+                    >
+                      <img
+                        class="w-[30px] h-[30px]"
+                        src="/src/images/sheffield.png"
+                      />
+                      <div
+                        class="w-[120px]"
+                      >
+                        Sheffield United
+                      </div>
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1"
+                  >
+                    <div
+                      class="h-full flex flex-col justify-center items-center"
                     >
                       <div>
                         Today
@@ -413,58 +367,50 @@ exports[`should render HomePage component 1`] = `
                     </div>
                   </div>
                 </div>
+              </div>
+              <div
+                class="md:w-1/2 border"
+              >
                 <div
-                  class="col-md-6 border"
+                  class="flex justify-between cursor-pointer hover:bg-gray-200"
                 >
                   <div
-                    class="row no-gutters row-item"
+                    class="p-2 flex flex-col"
                   >
                     <div
-                      class="col-8 col-md-8 p-2"
+                      class="flex justify-center items-center gap-2 m-1 w-[200px]"
                     >
+                      <img
+                        class="w-[30px] h-[30px]"
+                        src="/src/images/southampton.png"
+                      />
                       <div
-                        class="row justify-content-center m-1"
+                        class="w-[120px]"
                       >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/southampton.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Southampton
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        />
+                        Southampton
                       </div>
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/man-utd.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Man United
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        />
-                      </div>
+                      <div />
                     </div>
                     <div
-                      class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
+                      class="flex justify-center items-center gap-2 m-1 w-[200px]"
+                    >
+                      <img
+                        class="w-[30px] h-[30px]"
+                        src="/src/images/man-utd.png"
+                      />
+                      <div
+                        class="w-[120px]"
+                      >
+                        Man United
+                      </div>
+                      <div />
+                    </div>
+                  </div>
+                  <div
+                    class="flex-1"
+                  >
+                    <div
+                      class="h-full flex flex-col justify-center items-center"
                     >
                       <div>
                         Tomorrow
@@ -606,137 +552,57 @@ exports[`should render HomePage component 1`] = `
             </a>
           </div>
         </div>
-        <div
-          class="row no-gutters"
-        >
+        <div>
           <div
-            class="col-md-12"
+            class="flex flex-col md:flex-row text-sm md:text-base"
           >
             <div
-              class="row no-gutters"
+              class="md:w-1/2 border"
             >
               <div
-                class="col-md-6 border"
+                class="flex justify-between cursor-pointer hover:bg-gray-200"
               >
                 <div
-                  class="row no-gutters row-item"
+                  class="p-2 flex flex-col"
                 >
                   <div
-                    class="col-8 col-md-8 p-2"
+                    class="flex justify-center items-center gap-2 m-1 w-[200px]"
                   >
+                    <img
+                      class="w-[30px] h-[30px]"
+                      src="/src/images/crystal-palace.png"
+                    />
                     <div
-                      class="row justify-content-center m-1"
+                      class="w-[120px]"
                     >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/crystal-palace.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Crystal Palace
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      >
-                        0
-                      </div>
+                      Crystal Palace
                     </div>
-                    <div
-                      class="row justify-content-center m-1"
-                    >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/newcastle.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Newcastle
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      >
-                        2
-                      </div>
+                    <div>
+                      0
                     </div>
                   </div>
                   <div
-                    class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
+                    class="flex justify-center items-center gap-2 m-1 w-[200px]"
                   >
-                    <div>
-                      FT
+                    <img
+                      class="w-[30px] h-[30px]"
+                      src="/src/images/newcastle.png"
+                    />
+                    <div
+                      class="w-[120px]"
+                    >
+                      Newcastle
                     </div>
                     <div>
-                      Yesterday
+                      2
                     </div>
                   </div>
                 </div>
-              </div>
-              <div
-                class="col-md-6 border"
-              >
                 <div
-                  class="row no-gutters row-item"
+                  class="flex-1"
                 >
                   <div
-                    class="col-8 col-md-8 p-2"
-                  >
-                    <div
-                      class="row justify-content-center m-1"
-                    >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/brighton.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Brighton
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      >
-                        1
-                      </div>
-                    </div>
-                    <div
-                      class="row justify-content-center m-1"
-                    >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/liverpool.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Liverpool
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      >
-                        3
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
+                    class="h-full flex flex-col justify-center items-center"
                   >
                     <div>
                       FT
@@ -749,64 +615,52 @@ exports[`should render HomePage component 1`] = `
               </div>
             </div>
             <div
-              class="row no-gutters"
+              class="md:w-1/2 border"
             >
               <div
-                class="col-md-6 border"
+                class="flex justify-between cursor-pointer hover:bg-gray-200"
               >
                 <div
-                  class="row no-gutters row-item"
+                  class="p-2 flex flex-col"
                 >
                   <div
-                    class="col-8 col-md-8 p-2"
+                    class="flex justify-center items-center gap-2 m-1 w-[200px]"
                   >
+                    <img
+                      class="w-[30px] h-[30px]"
+                      src="/src/images/brighton.png"
+                    />
                     <div
-                      class="row justify-content-center m-1"
+                      class="w-[120px]"
                     >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/man-city.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Man. City
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      >
-                        2
-                      </div>
+                      Brighton
                     </div>
-                    <div
-                      class="row justify-content-center m-1"
-                    >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/burnley.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Burnley
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      >
-                        1
-                      </div>
+                    <div>
+                      1
                     </div>
                   </div>
                   <div
-                    class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
+                    class="flex justify-center items-center gap-2 m-1 w-[200px]"
+                  >
+                    <img
+                      class="w-[30px] h-[30px]"
+                      src="/src/images/liverpool.png"
+                    />
+                    <div
+                      class="w-[120px]"
+                    >
+                      Liverpool
+                    </div>
+                    <div>
+                      3
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex-1"
+                >
+                  <div
+                    class="h-full flex flex-col justify-center items-center"
                   >
                     <div>
                       FT
@@ -817,58 +671,112 @@ exports[`should render HomePage component 1`] = `
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+          <div
+            class="flex flex-col md:flex-row text-sm md:text-base"
+          >
+            <div
+              class="md:w-1/2 border"
+            >
               <div
-                class="col-md-6 border"
+                class="flex justify-between cursor-pointer hover:bg-gray-200"
               >
                 <div
-                  class="row no-gutters row-item"
+                  class="p-2 flex flex-col"
                 >
                   <div
-                    class="col-8 col-md-8 p-2"
+                    class="flex justify-center items-center gap-2 m-1 w-[200px]"
                   >
+                    <img
+                      class="w-[30px] h-[30px]"
+                      src="/src/images/man-city.png"
+                    />
                     <div
-                      class="row justify-content-center m-1"
+                      class="w-[120px]"
                     >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/everton.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Everton
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      />
+                      Man. City
                     </div>
-                    <div
-                      class="row justify-content-center m-1"
-                    >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/leeds.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Leeds United
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      />
+                    <div>
+                      2
                     </div>
                   </div>
                   <div
-                    class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
+                    class="flex justify-center items-center gap-2 m-1 w-[200px]"
+                  >
+                    <img
+                      class="w-[30px] h-[30px]"
+                      src="/src/images/burnley.png"
+                    />
+                    <div
+                      class="w-[120px]"
+                    >
+                      Burnley
+                    </div>
+                    <div>
+                      1
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex-1"
+                >
+                  <div
+                    class="h-full flex flex-col justify-center items-center"
+                  >
+                    <div>
+                      FT
+                    </div>
+                    <div>
+                      Yesterday
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="md:w-1/2 border"
+            >
+              <div
+                class="flex justify-between cursor-pointer hover:bg-gray-200"
+              >
+                <div
+                  class="p-2 flex flex-col"
+                >
+                  <div
+                    class="flex justify-center items-center gap-2 m-1 w-[200px]"
+                  >
+                    <img
+                      class="w-[30px] h-[30px]"
+                      src="/src/images/everton.png"
+                    />
+                    <div
+                      class="w-[120px]"
+                    >
+                      Everton
+                    </div>
+                    <div />
+                  </div>
+                  <div
+                    class="flex justify-center items-center gap-2 m-1 w-[200px]"
+                  >
+                    <img
+                      class="w-[30px] h-[30px]"
+                      src="/src/images/leeds.png"
+                    />
+                    <div
+                      class="w-[120px]"
+                    >
+                      Leeds United
+                    </div>
+                    <div />
+                  </div>
+                </div>
+                <div
+                  class="flex-1"
+                >
+                  <div
+                    class="h-full flex flex-col justify-center items-center"
                   >
                     <div>
                       Today
@@ -880,61 +788,53 @@ exports[`should render HomePage component 1`] = `
                 </div>
               </div>
             </div>
+          </div>
+          <div
+            class="flex flex-col md:flex-row text-sm md:text-base"
+          >
             <div
-              class="row no-gutters"
+              class="md:w-1/2 border"
             >
               <div
-                class="col-md-6 border"
+                class="flex justify-between cursor-pointer hover:bg-gray-200"
               >
                 <div
-                  class="row no-gutters row-item"
+                  class="p-2 flex flex-col"
                 >
                   <div
-                    class="col-8 col-md-8 p-2"
+                    class="flex justify-center items-center gap-2 m-1 w-[200px]"
                   >
+                    <img
+                      class="w-[30px] h-[30px]"
+                      src="/src/images/west-brom.png"
+                    />
                     <div
-                      class="row justify-content-center m-1"
+                      class="w-[120px]"
                     >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/west-brom.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        West Brom
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      />
+                      West Brom
                     </div>
-                    <div
-                      class="row justify-content-center m-1"
-                    >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/sheffield.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Sheffield United
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      />
-                    </div>
+                    <div />
                   </div>
                   <div
-                    class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
+                    class="flex justify-center items-center gap-2 m-1 w-[200px]"
+                  >
+                    <img
+                      class="w-[30px] h-[30px]"
+                      src="/src/images/sheffield.png"
+                    />
+                    <div
+                      class="w-[120px]"
+                    >
+                      Sheffield United
+                    </div>
+                    <div />
+                  </div>
+                </div>
+                <div
+                  class="flex-1"
+                >
+                  <div
+                    class="h-full flex flex-col justify-center items-center"
                   >
                     <div>
                       Today
@@ -945,58 +845,50 @@ exports[`should render HomePage component 1`] = `
                   </div>
                 </div>
               </div>
+            </div>
+            <div
+              class="md:w-1/2 border"
+            >
               <div
-                class="col-md-6 border"
+                class="flex justify-between cursor-pointer hover:bg-gray-200"
               >
                 <div
-                  class="row no-gutters row-item"
+                  class="p-2 flex flex-col"
                 >
                   <div
-                    class="col-8 col-md-8 p-2"
+                    class="flex justify-center items-center gap-2 m-1 w-[200px]"
                   >
+                    <img
+                      class="w-[30px] h-[30px]"
+                      src="/src/images/southampton.png"
+                    />
                     <div
-                      class="row justify-content-center m-1"
+                      class="w-[120px]"
                     >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/southampton.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Southampton
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      />
+                      Southampton
                     </div>
-                    <div
-                      class="row justify-content-center m-1"
-                    >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/man-utd.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Man United
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      />
-                    </div>
+                    <div />
                   </div>
                   <div
-                    class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
+                    class="flex justify-center items-center gap-2 m-1 w-[200px]"
+                  >
+                    <img
+                      class="w-[30px] h-[30px]"
+                      src="/src/images/man-utd.png"
+                    />
+                    <div
+                      class="w-[120px]"
+                    >
+                      Man United
+                    </div>
+                    <div />
+                  </div>
+                </div>
+                <div
+                  class="flex-1"
+                >
+                  <div
+                    class="h-full flex flex-col justify-center items-center"
                   >
                     <div>
                       Tomorrow
