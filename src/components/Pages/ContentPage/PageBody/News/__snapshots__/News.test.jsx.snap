@@ -6,55 +6,13 @@ exports[`should render News component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row no-gutters justify-content-center mt-3"
+        class="flex flex-col gap-5 items-center mt-3"
       >
         <div
-          class="col-md-9 col-lg-6"
+          class="flex items-center border-2 border-gray-400 rounded-md text-center p-1 w-1/2"
         >
           <div
-            class="row border rounded p-2"
-          >
-            <div
-              class="col-md-9"
-            >
-              <a
-                href="#/content/news"
-              >
-                Guardiola rules out new Manchester City signings in January
-              </a>
-              <div
-                class="text-secondary small"
-              >
-                Goal.com
-                 
-                4 days ago
-              </div>
-            </div>
-            <div
-              class="col-md-2"
-            >
-              <img
-                class="rounded"
-                src="news1"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="row no-gutters justify-content-center mt-3"
-    >
-      <div
-        class="col-md-9 col-lg-6"
-      >
-        <div
-          class="row border rounded p-2"
-        >
-          <div
-            class="col-md-9"
+            class="w-4/6 md:w-5/6"
           >
             <a
               href="#/content/news"
@@ -62,7 +20,7 @@ exports[`should render News component 1`] = `
               Guardiola rules out new Manchester City signings in January
             </a>
             <div
-              class="text-secondary small"
+              class="text-gray-500 text-sm"
             >
               Goal.com
                
@@ -70,13 +28,47 @@ exports[`should render News component 1`] = `
             </div>
           </div>
           <div
-            class="col-md-2"
+            class="w-2/6 md:w-1/6"
           >
             <img
-              class="rounded"
+              class="rounded-md"
               src="news1"
             />
           </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-col gap-5 items-center mt-3"
+    >
+      <div
+        class="flex items-center border-2 border-gray-400 rounded-md text-center p-1 w-1/2"
+      >
+        <div
+          class="w-4/6 md:w-5/6"
+        >
+          <a
+            href="#/content/news"
+          >
+            Guardiola rules out new Manchester City signings in January
+          </a>
+          <div
+            class="text-gray-500 text-sm"
+          >
+            Goal.com
+             
+            4 days ago
+          </div>
+        </div>
+        <div
+          class="w-2/6 md:w-1/6"
+        >
+          <img
+            class="rounded-md"
+            src="news1"
+          />
         </div>
       </div>
     </div>
