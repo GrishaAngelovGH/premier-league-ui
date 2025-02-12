@@ -1,7 +1,14 @@
-import { PageBody, matches } from 'components/Pages/HomePage'
+import { useContext } from 'react'
+import AppContext from "context"
 
-const Matches = () => (
-    <PageBody content={matches} />
-)
+import PageBody from 'components/Pages/HomePage/PageBody'
+
+const Matches = () => {
+	const { matches } = useContext(AppContext)
+
+	return (
+		<PageBody content={matches} />
+	)
+}
 
 export default Matches

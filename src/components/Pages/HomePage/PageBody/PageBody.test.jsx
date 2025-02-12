@@ -1,4 +1,5 @@
 import { render } from '@testing-library/react'
+import AppContext from "context"
 import PageBody from './PageBody'
 
 test('should render HomePage/PageBody component', () => {
@@ -21,7 +22,11 @@ test('should render HomePage/PageBody component', () => {
 		]
 	]
 
-	const view = render(<PageBody content={matches} />)
+	const view = render(
+		<AppContext.Provider value={{ matches }}>
+			<PageBody />
+		</AppContext.Provider>
+	)
 
 	expect(view).toMatchSnapshot()
 })

@@ -5,532 +5,7 @@ exports[`should render ContentPage component 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="row no-gutters"
-      >
-        <div
-          class="col-md-12"
-        >
-          <div
-            class="row flex-nowrap overflow-auto no-gutters content-header"
-          >
-            <div
-              class="d-flex"
-            >
-              <a
-                data-discover="true"
-                href="/"
-              >
-                <svg
-                  class="bi bi-arrow-left-short"
-                  fill="white"
-                  height="2em"
-                  viewBox="0 0 16 16"
-                  width="2em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"
-                    fill-rule="evenodd"
-                  />
-                </svg>
-              </a>
-              <div
-                class="m-1"
-              >
-                Premier League
-              </div>
-            </div>
-            <div
-              class="row flex-nowrap overflow-auto"
-            >
-              <div
-                class="col-md-12 mt-2"
-              >
-                <div
-                  class="row flex-nowrap overflow-auto ml-1"
-                >
-                  <a
-                    class="border-bottom border-white item mx-2"
-                    data-discover="true"
-                    href="/content/matches"
-                    id="0"
-                  >
-                    matches
-                  </a>
-                  <a
-                    class="item mx-2"
-                    data-discover="true"
-                    href="/content/news"
-                    id="1"
-                  >
-                    news
-                  </a>
-                  <a
-                    class="item mx-2"
-                    data-discover="true"
-                    href="/content/standings"
-                    id="2"
-                  >
-                    standings
-                  </a>
-                  <a
-                    class="item mx-2"
-                    data-discover="true"
-                    href="/content/stats"
-                    id="3"
-                  >
-                    stats
-                  </a>
-                  <a
-                    class="item mx-2"
-                    data-discover="true"
-                    href="/content/players"
-                    id="4"
-                  >
-                    players
-                  </a>
-                </div>
-              </div>
-            </div>
-            <a
-              data-discover="true"
-              href="/"
-            >
-              <span
-                role="button"
-              >
-                <svg
-                  class="bi bi-x"
-                  fill="white"
-                  height="2em"
-                  viewBox="0 0 16 16"
-                  width="2em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
-                    fill-rule="evenodd"
-                  />
-                </svg>
-              </span>
-            </a>
-          </div>
-          <div
-            class="row no-gutters"
-          >
-            <div
-              class="col-md-12"
-            >
-              <div
-                class="row no-gutters"
-              >
-                <div
-                  class="col-md-6 border"
-                >
-                  <div
-                    class="row no-gutters row-item"
-                  >
-                    <div
-                      class="col-8 col-md-8 p-2"
-                    >
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/crystal-palace.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Crystal Palace
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        >
-                          0
-                        </div>
-                      </div>
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/newcastle.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Newcastle
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        >
-                          2
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
-                    >
-                      <div>
-                        FT
-                      </div>
-                      <div>
-                        Yesterday
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-md-6 border"
-                >
-                  <div
-                    class="row no-gutters row-item"
-                  >
-                    <div
-                      class="col-8 col-md-8 p-2"
-                    >
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/brighton.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Brighton
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        >
-                          1
-                        </div>
-                      </div>
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/liverpool.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Liverpool
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        >
-                          3
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
-                    >
-                      <div>
-                        FT
-                      </div>
-                      <div>
-                        Yesterday
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="row no-gutters"
-              >
-                <div
-                  class="col-md-6 border"
-                >
-                  <div
-                    class="row no-gutters row-item"
-                  >
-                    <div
-                      class="col-8 col-md-8 p-2"
-                    >
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/man-city.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Man. City
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        >
-                          2
-                        </div>
-                      </div>
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/burnley.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Burnley
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        >
-                          1
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
-                    >
-                      <div>
-                        FT
-                      </div>
-                      <div>
-                        Yesterday
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-md-6 border"
-                >
-                  <div
-                    class="row no-gutters row-item"
-                  >
-                    <div
-                      class="col-8 col-md-8 p-2"
-                    >
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/everton.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Everton
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        />
-                      </div>
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/leeds.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Leeds United
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        />
-                      </div>
-                    </div>
-                    <div
-                      class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
-                    >
-                      <div>
-                        Today
-                      </div>
-                      <div>
-                        19:30
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="row no-gutters"
-              >
-                <div
-                  class="col-md-6 border"
-                >
-                  <div
-                    class="row no-gutters row-item"
-                  >
-                    <div
-                      class="col-8 col-md-8 p-2"
-                    >
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/west-brom.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          West Brom
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        />
-                      </div>
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/sheffield.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Sheffield United
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        />
-                      </div>
-                    </div>
-                    <div
-                      class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
-                    >
-                      <div>
-                        Today
-                      </div>
-                      <div>
-                        22:00
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-md-6 border"
-                >
-                  <div
-                    class="row no-gutters row-item"
-                  >
-                    <div
-                      class="col-8 col-md-8 p-2"
-                    >
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/southampton.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Southampton
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        />
-                      </div>
-                      <div
-                        class="row justify-content-center m-1"
-                      >
-                        <div
-                          class="col-2 col-md-2"
-                        >
-                          <img
-                            src="/src/images/man-utd.png"
-                            width="25"
-                          />
-                        </div>
-                        <div
-                          class="col-8 col-md-8"
-                        >
-                          Man United
-                        </div>
-                        <div
-                          class="col-1 col-md-1"
-                        />
-                      </div>
-                    </div>
-                    <div
-                      class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
-                    >
-                      <div>
-                        Tomorrow
-                      </div>
-                      <div>
-                        16:00
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div
-      class="row no-gutters"
-    >
-      <div
-        class="col-md-12"
-      >
+      <div>
         <div
           class="row flex-nowrap overflow-auto no-gutters content-header"
         >
@@ -636,137 +111,57 @@ exports[`should render ContentPage component 1`] = `
             </span>
           </a>
         </div>
-        <div
-          class="row no-gutters"
-        >
+        <div>
           <div
-            class="col-md-12"
+            class="flex flex-col md:flex-row text-sm md:text-base"
           >
             <div
-              class="row no-gutters"
+              class="md:w-1/2 border"
             >
               <div
-                class="col-md-6 border"
+                class="flex justify-between cursor-pointer hover:bg-gray-200"
               >
                 <div
-                  class="row no-gutters row-item"
+                  class="p-2 flex flex-col"
                 >
                   <div
-                    class="col-8 col-md-8 p-2"
+                    class="flex justify-center items-center gap-2 m-1 w-[200px]"
                   >
+                    <img
+                      class="w-[30px] h-[30px]"
+                      src="/src/images/crystal-palace.png"
+                    />
                     <div
-                      class="row justify-content-center m-1"
+                      class="w-[120px]"
                     >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/crystal-palace.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Crystal Palace
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      >
-                        0
-                      </div>
+                      Crystal Palace
                     </div>
-                    <div
-                      class="row justify-content-center m-1"
-                    >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/newcastle.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Newcastle
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      >
-                        2
-                      </div>
+                    <div>
+                      0
                     </div>
                   </div>
                   <div
-                    class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
+                    class="flex justify-center items-center gap-2 m-1 w-[200px]"
                   >
-                    <div>
-                      FT
+                    <img
+                      class="w-[30px] h-[30px]"
+                      src="/src/images/newcastle.png"
+                    />
+                    <div
+                      class="w-[120px]"
+                    >
+                      Newcastle
                     </div>
                     <div>
-                      Yesterday
+                      2
                     </div>
                   </div>
                 </div>
-              </div>
-              <div
-                class="col-md-6 border"
-              >
                 <div
-                  class="row no-gutters row-item"
+                  class="flex-1"
                 >
                   <div
-                    class="col-8 col-md-8 p-2"
-                  >
-                    <div
-                      class="row justify-content-center m-1"
-                    >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/brighton.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Brighton
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      >
-                        1
-                      </div>
-                    </div>
-                    <div
-                      class="row justify-content-center m-1"
-                    >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/liverpool.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Liverpool
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      >
-                        3
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
+                    class="h-full flex flex-col justify-center items-center"
                   >
                     <div>
                       FT
@@ -779,64 +174,52 @@ exports[`should render ContentPage component 1`] = `
               </div>
             </div>
             <div
-              class="row no-gutters"
+              class="md:w-1/2 border"
             >
               <div
-                class="col-md-6 border"
+                class="flex justify-between cursor-pointer hover:bg-gray-200"
               >
                 <div
-                  class="row no-gutters row-item"
+                  class="p-2 flex flex-col"
                 >
                   <div
-                    class="col-8 col-md-8 p-2"
+                    class="flex justify-center items-center gap-2 m-1 w-[200px]"
                   >
+                    <img
+                      class="w-[30px] h-[30px]"
+                      src="/src/images/brighton.png"
+                    />
                     <div
-                      class="row justify-content-center m-1"
+                      class="w-[120px]"
                     >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/man-city.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Man. City
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      >
-                        2
-                      </div>
+                      Brighton
                     </div>
-                    <div
-                      class="row justify-content-center m-1"
-                    >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/burnley.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Burnley
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      >
-                        1
-                      </div>
+                    <div>
+                      1
                     </div>
                   </div>
                   <div
-                    class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
+                    class="flex justify-center items-center gap-2 m-1 w-[200px]"
+                  >
+                    <img
+                      class="w-[30px] h-[30px]"
+                      src="/src/images/liverpool.png"
+                    />
+                    <div
+                      class="w-[120px]"
+                    >
+                      Liverpool
+                    </div>
+                    <div>
+                      3
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="flex-1"
+                >
+                  <div
+                    class="h-full flex flex-col justify-center items-center"
                   >
                     <div>
                       FT
@@ -847,193 +230,234 @@ exports[`should render ContentPage component 1`] = `
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <div
+        class="row flex-nowrap overflow-auto no-gutters content-header"
+      >
+        <div
+          class="d-flex"
+        >
+          <a
+            data-discover="true"
+            href="/"
+          >
+            <svg
+              class="bi bi-arrow-left-short"
+              fill="white"
+              height="2em"
+              viewBox="0 0 16 16"
+              width="2em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </a>
+          <div
+            class="m-1"
+          >
+            Premier League
+          </div>
+        </div>
+        <div
+          class="row flex-nowrap overflow-auto"
+        >
+          <div
+            class="col-md-12 mt-2"
+          >
+            <div
+              class="row flex-nowrap overflow-auto ml-1"
+            >
+              <a
+                class="border-bottom border-white item mx-2"
+                data-discover="true"
+                href="/content/matches"
+                id="0"
+              >
+                matches
+              </a>
+              <a
+                class="item mx-2"
+                data-discover="true"
+                href="/content/news"
+                id="1"
+              >
+                news
+              </a>
+              <a
+                class="item mx-2"
+                data-discover="true"
+                href="/content/standings"
+                id="2"
+              >
+                standings
+              </a>
+              <a
+                class="item mx-2"
+                data-discover="true"
+                href="/content/stats"
+                id="3"
+              >
+                stats
+              </a>
+              <a
+                class="item mx-2"
+                data-discover="true"
+                href="/content/players"
+                id="4"
+              >
+                players
+              </a>
+            </div>
+          </div>
+        </div>
+        <a
+          data-discover="true"
+          href="/"
+        >
+          <span
+            role="button"
+          >
+            <svg
+              class="bi bi-x"
+              fill="white"
+              height="2em"
+              viewBox="0 0 16 16"
+              width="2em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"
+                fill-rule="evenodd"
+              />
+            </svg>
+          </span>
+        </a>
+      </div>
+      <div>
+        <div
+          class="flex flex-col md:flex-row text-sm md:text-base"
+        >
+          <div
+            class="md:w-1/2 border"
+          >
+            <div
+              class="flex justify-between cursor-pointer hover:bg-gray-200"
+            >
               <div
-                class="col-md-6 border"
+                class="p-2 flex flex-col"
               >
                 <div
-                  class="row no-gutters row-item"
+                  class="flex justify-center items-center gap-2 m-1 w-[200px]"
                 >
+                  <img
+                    class="w-[30px] h-[30px]"
+                    src="/src/images/crystal-palace.png"
+                  />
                   <div
-                    class="col-8 col-md-8 p-2"
+                    class="w-[120px]"
                   >
-                    <div
-                      class="row justify-content-center m-1"
-                    >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/everton.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Everton
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      />
-                    </div>
-                    <div
-                      class="row justify-content-center m-1"
-                    >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/leeds.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Leeds United
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      />
-                    </div>
+                    Crystal Palace
                   </div>
+                  <div>
+                    0
+                  </div>
+                </div>
+                <div
+                  class="flex justify-center items-center gap-2 m-1 w-[200px]"
+                >
+                  <img
+                    class="w-[30px] h-[30px]"
+                    src="/src/images/newcastle.png"
+                  />
                   <div
-                    class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
+                    class="w-[120px]"
                   >
-                    <div>
-                      Today
-                    </div>
-                    <div>
-                      19:30
-                    </div>
+                    Newcastle
+                  </div>
+                  <div>
+                    2
+                  </div>
+                </div>
+              </div>
+              <div
+                class="flex-1"
+              >
+                <div
+                  class="h-full flex flex-col justify-center items-center"
+                >
+                  <div>
+                    FT
+                  </div>
+                  <div>
+                    Yesterday
                   </div>
                 </div>
               </div>
             </div>
+          </div>
+          <div
+            class="md:w-1/2 border"
+          >
             <div
-              class="row no-gutters"
+              class="flex justify-between cursor-pointer hover:bg-gray-200"
             >
               <div
-                class="col-md-6 border"
+                class="p-2 flex flex-col"
               >
                 <div
-                  class="row no-gutters row-item"
+                  class="flex justify-center items-center gap-2 m-1 w-[200px]"
                 >
+                  <img
+                    class="w-[30px] h-[30px]"
+                    src="/src/images/brighton.png"
+                  />
                   <div
-                    class="col-8 col-md-8 p-2"
+                    class="w-[120px]"
                   >
-                    <div
-                      class="row justify-content-center m-1"
-                    >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/west-brom.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        West Brom
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      />
-                    </div>
-                    <div
-                      class="row justify-content-center m-1"
-                    >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/sheffield.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Sheffield United
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      />
-                    </div>
+                    Brighton
                   </div>
+                  <div>
+                    1
+                  </div>
+                </div>
+                <div
+                  class="flex justify-center items-center gap-2 m-1 w-[200px]"
+                >
+                  <img
+                    class="w-[30px] h-[30px]"
+                    src="/src/images/liverpool.png"
+                  />
                   <div
-                    class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
+                    class="w-[120px]"
                   >
-                    <div>
-                      Today
-                    </div>
-                    <div>
-                      22:00
-                    </div>
+                    Liverpool
+                  </div>
+                  <div>
+                    3
                   </div>
                 </div>
               </div>
               <div
-                class="col-md-6 border"
+                class="flex-1"
               >
                 <div
-                  class="row no-gutters row-item"
+                  class="h-full flex flex-col justify-center items-center"
                 >
-                  <div
-                    class="col-8 col-md-8 p-2"
-                  >
-                    <div
-                      class="row justify-content-center m-1"
-                    >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/southampton.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Southampton
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      />
-                    </div>
-                    <div
-                      class="row justify-content-center m-1"
-                    >
-                      <div
-                        class="col-2 col-md-2"
-                      >
-                        <img
-                          src="/src/images/man-utd.png"
-                          width="25"
-                        />
-                      </div>
-                      <div
-                        class="col-8 col-md-8"
-                      >
-                        Man United
-                      </div>
-                      <div
-                        class="col-1 col-md-1"
-                      />
-                    </div>
+                  <div>
+                    FT
                   </div>
-                  <div
-                    class="col-4 col-md-4 d-flex flex-column justify-content-center text-center"
-                  >
-                    <div>
-                      Tomorrow
-                    </div>
-                    <div>
-                      16:00
-                    </div>
+                  <div>
+                    Yesterday
                   </div>
                 </div>
               </div>

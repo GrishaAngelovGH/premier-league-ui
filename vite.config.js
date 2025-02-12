@@ -8,7 +8,8 @@ export default defineConfig({
   resolve: {
     alias: {
       components: "/src/components",
-      images: "/src/images"
+      images: "/src/images",
+      context: "/src/context/AppContext"
     }
   },
   test: {
