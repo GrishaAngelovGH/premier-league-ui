@@ -55,7 +55,7 @@ const matches = [
 
 const HomePage = () => (
 	<div className="flex justify-center">
-		<div className='lg:w-1/2 p-4'>
+		<div className='w-[95%] lg:w-1/2 p-4'>
 			<PageHeader />
 			<PageBody content={matches} />
 			<PageFooter />

@@ -4,7 +4,11 @@ import { MemoryRouter } from 'react-router-dom'
 import PageHeader from './PageHeader'
 
 test('should render HomePage/PageHeader component', () => {
-    const view = render(<PageHeader />, { wrapper: MemoryRouter })
+	const view = render(
+		<MemoryRouter>
+			<PageHeader />
+		</MemoryRouter>
+	)
 
-    expect(view).toMatchSnapshot()
+	expect(view).toMatchSnapshot()
 })

@@ -9,82 +9,69 @@ exports[`should render HomePage component 1`] = `
         class="flex justify-center"
       >
         <div
-          class="lg:w-1/2 p-4"
+          class="w-[95%] lg:w-1/2 p-4"
         >
           <div
-            class="page-header w-100"
+            class="bg-purple-900 text-white h-[130px] rounded-t-md p-2"
           >
             <div
-              class="row"
+              class="flex items-center gap-2"
             >
+              <img
+                class="w-[50px] h-[50px]"
+                src="/src/images/pl-logo.png"
+              />
               <div
-                class="col-2 col-md-1"
+                class="text-xl"
               >
-                <img
-                  src="/src/images/pl-logo.png"
-                />
-              </div>
-              <div
-                class="col-10"
-              >
-                <h5
-                  class="m-0"
-                >
+                <div>
                   Premier League
-                </h5>
-                <h5
-                  class="m-0 matchday-description"
+                </div>
+                <div
+                  class="opacity-[0.5]"
                 >
                   Matchday 10 of 38
-                </h5>
+                </div>
               </div>
             </div>
             <div
-              class="row"
+              class="flex justify-evenly p-4 overflow-auto"
             >
-              <div
-                class="col-md-12 justify-content-between mt-4"
+              <a
+                class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b border-white hover:border-b-0"
+                data-discover="true"
+                href="/content"
               >
-                <div
-                  class="row flex-nowrap overflow-auto ml-1"
-                >
-                  <a
-                    class="border-bottom border-white item mx-2"
-                    data-discover="true"
-                    href="/content"
-                  >
-                    matches
-                  </a>
-                  <a
-                    class="item mx-2"
-                    data-discover="true"
-                    href="/content"
-                  >
-                    news
-                  </a>
-                  <a
-                    class="item mx-2"
-                    data-discover="true"
-                    href="/content"
-                  >
-                    standings
-                  </a>
-                  <a
-                    class="item mx-2"
-                    data-discover="true"
-                    href="/content"
-                  >
-                    stats
-                  </a>
-                  <a
-                    class="item mx-2"
-                    data-discover="true"
-                    href="/content"
-                  >
-                    players
-                  </a>
-                </div>
-              </div>
+                matches
+              </a>
+              <a
+                class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
+                data-discover="true"
+                href="/content"
+              >
+                news
+              </a>
+              <a
+                class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
+                data-discover="true"
+                href="/content"
+              >
+                standings
+              </a>
+              <a
+                class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
+                data-discover="true"
+                href="/content"
+              >
+                stats
+              </a>
+              <a
+                class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
+                data-discover="true"
+                href="/content"
+              >
+                players
+              </a>
             </div>
           </div>
           <div
@@ -554,82 +541,69 @@ exports[`should render HomePage component 1`] = `
       class="flex justify-center"
     >
       <div
-        class="lg:w-1/2 p-4"
+        class="w-[95%] lg:w-1/2 p-4"
       >
         <div
-          class="page-header w-100"
+          class="bg-purple-900 text-white h-[130px] rounded-t-md p-2"
         >
           <div
-            class="row"
+            class="flex items-center gap-2"
           >
+            <img
+              class="w-[50px] h-[50px]"
+              src="/src/images/pl-logo.png"
+            />
             <div
-              class="col-2 col-md-1"
+              class="text-xl"
             >
-              <img
-                src="/src/images/pl-logo.png"
-              />
-            </div>
-            <div
-              class="col-10"
-            >
-              <h5
-                class="m-0"
-              >
+              <div>
                 Premier League
-              </h5>
-              <h5
-                class="m-0 matchday-description"
+              </div>
+              <div
+                class="opacity-[0.5]"
               >
                 Matchday 10 of 38
-              </h5>
+              </div>
             </div>
           </div>
           <div
-            class="row"
+            class="flex justify-evenly p-4 overflow-auto"
           >
-            <div
-              class="col-md-12 justify-content-between mt-4"
+            <a
+              class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b border-white hover:border-b-0"
+              data-discover="true"
+              href="/content"
             >
-              <div
-                class="row flex-nowrap overflow-auto ml-1"
-              >
-                <a
-                  class="border-bottom border-white item mx-2"
-                  data-discover="true"
-                  href="/content"
-                >
-                  matches
-                </a>
-                <a
-                  class="item mx-2"
-                  data-discover="true"
-                  href="/content"
-                >
-                  news
-                </a>
-                <a
-                  class="item mx-2"
-                  data-discover="true"
-                  href="/content"
-                >
-                  standings
-                </a>
-                <a
-                  class="item mx-2"
-                  data-discover="true"
-                  href="/content"
-                >
-                  stats
-                </a>
-                <a
-                  class="item mx-2"
-                  data-discover="true"
-                  href="/content"
-                >
-                  players
-                </a>
-              </div>
-            </div>
+              matches
+            </a>
+            <a
+              class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
+              data-discover="true"
+              href="/content"
+            >
+              news
+            </a>
+            <a
+              class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
+              data-discover="true"
+              href="/content"
+            >
+              standings
+            </a>
+            <a
+              class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
+              data-discover="true"
+              href="/content"
+            >
+              stats
+            </a>
+            <a
+              class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
+              data-discover="true"
+              href="/content"
+            >
+              players
+            </a>
           </div>
         </div>
         <div
