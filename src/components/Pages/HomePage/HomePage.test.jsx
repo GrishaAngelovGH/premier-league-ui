@@ -4,7 +4,11 @@ import { MemoryRouter } from 'react-router-dom'
 import HomePage from './HomePage'
 
 test('should render HomePage component', () => {
-    const view = render(<HomePage />, { wrapper: MemoryRouter })
+	const view = render(
+		<MemoryRouter>
+			<HomePage />
+		</MemoryRouter>
+	)
 
-    expect(view).toMatchSnapshot()
+	expect(view).toMatchSnapshot()
 })
