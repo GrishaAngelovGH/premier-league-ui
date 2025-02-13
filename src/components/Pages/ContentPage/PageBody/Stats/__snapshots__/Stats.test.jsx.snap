@@ -6,61 +6,59 @@ exports[`should render Stats component 1`] = `
   "baseElement": <body>
     <div>
       <div
-        class="row no-gutters justify-content-center mt-3"
+        class="flex justify-center mt-3"
       >
         <div
-          class="col-9 col-lg-6"
+          class="w-1/2"
         >
           <div
-            class="row text-secondary border-bottom"
+            class="flex text-gray-500 border-b"
           >
             <div
-              class="col-9 col-md-10"
+              class="w-5/6"
             >
               Players
             </div>
             <div
-              class="col-2 col-md-2"
+              class="w-1/6 text-end"
             >
               Goals
             </div>
           </div>
           <div
-            class="row no-gutters border-bottom"
+            class="flex items-center border-b border-gray-400 p-2"
           >
             <div
-              class="col-1 col-md-1 m-1"
-            >
-              1
-            </div>
-            <div
-              class="col-9 col-md-9"
+              class="w-5/6"
             >
               <div
-                class="row m-1"
+                class="flex gap-2 items-center"
               >
-                Dominic Calvert-Lewin
-              </div>
-              <div
-                class="row mb-1"
-              >
+                <div>
+                  1
+                </div>
                 <div
-                  class="col-1 col-md-1"
+                  class="flex items-center gap-2"
                 >
                   <img
+                    class="w-[30px] h-[30px]"
                     src="img1"
-                    width="25"
                   />
-                </div>
-                <div
-                  class="col-7 col-md-5 text-secondary"
-                >
-                  Eveton
+                  <div>
+                    <div>
+                      Dominic Calvert-Lewin
+                    </div>
+                    <div
+                      class="text-gray-500"
+                    >
+                      Eveton
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
             <div
-              class="col-1 col-md-1 d-flex justify-content-end mt-1"
+              class="w-1/6 text-end"
             >
               10
             </div>
@@ -71,61 +69,59 @@ exports[`should render Stats component 1`] = `
   </body>,
   "container": <div>
     <div
-      class="row no-gutters justify-content-center mt-3"
+      class="flex justify-center mt-3"
     >
       <div
-        class="col-9 col-lg-6"
+        class="w-1/2"
       >
         <div
-          class="row text-secondary border-bottom"
+          class="flex text-gray-500 border-b"
         >
           <div
-            class="col-9 col-md-10"
+            class="w-5/6"
           >
             Players
           </div>
           <div
-            class="col-2 col-md-2"
+            class="w-1/6 text-end"
           >
             Goals
           </div>
         </div>
         <div
-          class="row no-gutters border-bottom"
+          class="flex items-center border-b border-gray-400 p-2"
         >
           <div
-            class="col-1 col-md-1 m-1"
-          >
-            1
-          </div>
-          <div
-            class="col-9 col-md-9"
+            class="w-5/6"
           >
             <div
-              class="row m-1"
+              class="flex gap-2 items-center"
             >
-              Dominic Calvert-Lewin
-            </div>
-            <div
-              class="row mb-1"
-            >
+              <div>
+                1
+              </div>
               <div
-                class="col-1 col-md-1"
+                class="flex items-center gap-2"
               >
                 <img
+                  class="w-[30px] h-[30px]"
                   src="img1"
-                  width="25"
                 />
-              </div>
-              <div
-                class="col-7 col-md-5 text-secondary"
-              >
-                Eveton
+                <div>
+                  <div>
+                    Dominic Calvert-Lewin
+                  </div>
+                  <div
+                    class="text-gray-500"
+                  >
+                    Eveton
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div
-            class="col-1 col-md-1 d-flex justify-content-end mt-1"
+            class="w-1/6 text-end"
           >
             10
           </div>

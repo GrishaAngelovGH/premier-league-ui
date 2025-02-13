@@ -1,45 +1,32 @@
-import PropTypes from 'prop-types'
-
 const Stats = ({ statsItems }) => (
-    <div className='row no-gutters justify-content-center mt-3'>
-        <div className='col-9 col-lg-6'>
-            <div className='row text-secondary border-bottom'>
-                <div className='col-9 col-md-10'>Players</div>
-                <div className='col-2 col-md-2'>Goals</div>
-            </div>
+	<div className='flex justify-center mt-3'>
+		<div className='w-1/2'>
+			<div className='flex text-gray-500 border-b'>
+				<div className='w-5/6'>Players</div>
+				<div className='w-1/6 text-end'>Goals</div>
+			</div>
 
-            {
-                statsItems.map((v, i) => (
-                    <div key={i} className='row no-gutters border-bottom'>
-                        <div className='col-1 col-md-1 m-1'>
-                            {v.position}
-                        </div>
-                        <div className='col-9 col-md-9'>
-                            <div className='row m-1'>
-                                {v.playerName}
-                            </div>
-                            <div className='row mb-1'>
-                                <div className='col-1 col-md-1'>
-                                    <img src={v.teamImage} width={25} />
-                                </div>
-                                <div className='col-7 col-md-5 text-secondary'>
-                                    {v.team}
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className='col-1 col-md-1 d-flex justify-content-end mt-1'>
-                            {v.goals}
-                        </div>
-                    </div>
-                ))
-            }
-        </div>
-    </div>
+			{
+				statsItems.map((v, i) => (
+					<div key={i} className="flex items-center border-b border-gray-400 p-2">
+						<div className="w-5/6">
+							<div className="flex gap-2 items-center">
+								<div>{v.position}</div>
+								<div className="flex items-center gap-2">
+									<img src={v.teamImage} className="w-[30px] h-[30px]" />
+									<div>
+										<div>{v.playerName}</div>
+										<div className="text-gray-500">{v.team}</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="w-1/6 text-end">{v.goals}</div>
+					</div>
+				))
+			}
+		</div>
+	</div>
 )
-
-Stats.propTypes = {
-    statsItems: PropTypes.array.isRequired
-}
 
 export default Stats
