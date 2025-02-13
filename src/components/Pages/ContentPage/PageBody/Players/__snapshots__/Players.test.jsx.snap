@@ -5,31 +5,747 @@ exports[`should render Players component 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <div
-        class="row no-gutters vh-100 players-bg"
-      >
+      <div>
         <div
-          class="col-md-12"
+          class="container mx-auto p-4"
         >
-          <img
-            class="w-100"
-            src="/src/images/players.png"
-          />
+          <div
+            class="grid grid-col-1 md:grid-cols-3 gap-4"
+          >
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Erling Haaland
+              </div>
+              <div>
+                Team: 
+                Manchester City
+              </div>
+              <div>
+                Position: 
+                Forward
+              </div>
+              <div>
+                Goals: 
+                27
+              </div>
+            </div>
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Mohamed Salah
+              </div>
+              <div>
+                Team: 
+                Liverpool
+              </div>
+              <div>
+                Position: 
+                Forward
+              </div>
+              <div>
+                Goals: 
+                18
+              </div>
+            </div>
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Son Heung-Min
+              </div>
+              <div>
+                Team: 
+                Tottenham Hotspur
+              </div>
+              <div>
+                Position: 
+                Forward
+              </div>
+              <div>
+                Goals: 
+                17
+              </div>
+            </div>
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Jarrod Bowen
+              </div>
+              <div>
+                Team: 
+                West Ham United
+              </div>
+              <div>
+                Position: 
+                Forward
+              </div>
+              <div>
+                Goals: 
+                16
+              </div>
+            </div>
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Jean-Philippe Mateta
+              </div>
+              <div>
+                Team: 
+                Crystal Palace
+              </div>
+              <div>
+                Position: 
+                Forward
+              </div>
+              <div>
+                Goals: 
+                16
+              </div>
+            </div>
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Alexander Isak
+              </div>
+              <div>
+                Team: 
+                Newcastle United
+              </div>
+              <div>
+                Position: 
+                Forward
+              </div>
+              <div>
+                Goals: 
+                21
+              </div>
+            </div>
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Phil Foden
+              </div>
+              <div>
+                Team: 
+                Manchester City
+              </div>
+              <div>
+                Position: 
+                Midfielder
+              </div>
+              <div>
+                Goals: 
+                19
+              </div>
+            </div>
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Dominic Solanke
+              </div>
+              <div>
+                Team: 
+                Bournemouth
+              </div>
+              <div>
+                Position: 
+                Forward
+              </div>
+              <div>
+                Goals: 
+                19
+              </div>
+            </div>
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Ollie Watkins
+              </div>
+              <div>
+                Team: 
+                Aston Villa
+              </div>
+              <div>
+                Position: 
+                Forward
+              </div>
+              <div>
+                Goals: 
+                19
+              </div>
+            </div>
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Bryan Mbuemo
+              </div>
+              <div>
+                Team: 
+                Brentford
+              </div>
+              <div>
+                Position: 
+                Forward
+              </div>
+              <div>
+                Goals: 
+                16
+              </div>
+            </div>
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Matheus Cunha
+              </div>
+              <div>
+                Team: 
+                Wolverhampton Wanderers
+              </div>
+              <div>
+                Position: 
+                Forward
+              </div>
+              <div>
+                Goals: 
+                14
+              </div>
+            </div>
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Ryan Gravenberch
+              </div>
+              <div>
+                Team: 
+                Liverpool
+              </div>
+              <div>
+                Position: 
+                Midfielder
+              </div>
+              <div>
+                Goals: 
+                8
+              </div>
+            </div>
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Bruno Fernandes
+              </div>
+              <div>
+                Team: 
+                Manchester United
+              </div>
+              <div>
+                Position: 
+                Midfielder
+              </div>
+              <div>
+                Goals: 
+                12
+              </div>
+            </div>
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Kevin De Bruyne
+              </div>
+              <div>
+                Team: 
+                Manchester City
+              </div>
+              <div>
+                Position: 
+                Midfielder
+              </div>
+              <div>
+                Goals: 
+                10
+              </div>
+            </div>
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Morgan Gibbs-White
+              </div>
+              <div>
+                Team: 
+                Nottingham Forest
+              </div>
+              <div>
+                Position: 
+                Midfielder
+              </div>
+              <div>
+                Goals: 
+                10
+              </div>
+            </div>
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Anthony Gordon
+              </div>
+              <div>
+                Team: 
+                Newcastle United
+              </div>
+              <div>
+                Position: 
+                Midfielder
+              </div>
+              <div>
+                Goals: 
+                10
+              </div>
+            </div>
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Pascal Groß
+              </div>
+              <div>
+                Team: 
+                Brighton & Hove Albion
+              </div>
+              <div>
+                Position: 
+                Midfielder
+              </div>
+              <div>
+                Goals: 
+                8
+              </div>
+            </div>
+            <div
+              class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+            >
+              <div>
+                Name: 
+                Brennan Johnson
+              </div>
+              <div>
+                Team: 
+                Tottenham Hotspur
+              </div>
+              <div>
+                Position: 
+                Forward
+              </div>
+              <div>
+                Goals: 
+                9
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </body>,
   "container": <div>
-    <div
-      class="row no-gutters vh-100 players-bg"
-    >
+    <div>
       <div
-        class="col-md-12"
+        class="container mx-auto p-4"
       >
-        <img
-          class="w-100"
-          src="/src/images/players.png"
-        />
+        <div
+          class="grid grid-col-1 md:grid-cols-3 gap-4"
+        >
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Erling Haaland
+            </div>
+            <div>
+              Team: 
+              Manchester City
+            </div>
+            <div>
+              Position: 
+              Forward
+            </div>
+            <div>
+              Goals: 
+              27
+            </div>
+          </div>
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Mohamed Salah
+            </div>
+            <div>
+              Team: 
+              Liverpool
+            </div>
+            <div>
+              Position: 
+              Forward
+            </div>
+            <div>
+              Goals: 
+              18
+            </div>
+          </div>
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Son Heung-Min
+            </div>
+            <div>
+              Team: 
+              Tottenham Hotspur
+            </div>
+            <div>
+              Position: 
+              Forward
+            </div>
+            <div>
+              Goals: 
+              17
+            </div>
+          </div>
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Jarrod Bowen
+            </div>
+            <div>
+              Team: 
+              West Ham United
+            </div>
+            <div>
+              Position: 
+              Forward
+            </div>
+            <div>
+              Goals: 
+              16
+            </div>
+          </div>
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Jean-Philippe Mateta
+            </div>
+            <div>
+              Team: 
+              Crystal Palace
+            </div>
+            <div>
+              Position: 
+              Forward
+            </div>
+            <div>
+              Goals: 
+              16
+            </div>
+          </div>
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Alexander Isak
+            </div>
+            <div>
+              Team: 
+              Newcastle United
+            </div>
+            <div>
+              Position: 
+              Forward
+            </div>
+            <div>
+              Goals: 
+              21
+            </div>
+          </div>
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Phil Foden
+            </div>
+            <div>
+              Team: 
+              Manchester City
+            </div>
+            <div>
+              Position: 
+              Midfielder
+            </div>
+            <div>
+              Goals: 
+              19
+            </div>
+          </div>
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Dominic Solanke
+            </div>
+            <div>
+              Team: 
+              Bournemouth
+            </div>
+            <div>
+              Position: 
+              Forward
+            </div>
+            <div>
+              Goals: 
+              19
+            </div>
+          </div>
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Ollie Watkins
+            </div>
+            <div>
+              Team: 
+              Aston Villa
+            </div>
+            <div>
+              Position: 
+              Forward
+            </div>
+            <div>
+              Goals: 
+              19
+            </div>
+          </div>
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Bryan Mbuemo
+            </div>
+            <div>
+              Team: 
+              Brentford
+            </div>
+            <div>
+              Position: 
+              Forward
+            </div>
+            <div>
+              Goals: 
+              16
+            </div>
+          </div>
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Matheus Cunha
+            </div>
+            <div>
+              Team: 
+              Wolverhampton Wanderers
+            </div>
+            <div>
+              Position: 
+              Forward
+            </div>
+            <div>
+              Goals: 
+              14
+            </div>
+          </div>
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Ryan Gravenberch
+            </div>
+            <div>
+              Team: 
+              Liverpool
+            </div>
+            <div>
+              Position: 
+              Midfielder
+            </div>
+            <div>
+              Goals: 
+              8
+            </div>
+          </div>
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Bruno Fernandes
+            </div>
+            <div>
+              Team: 
+              Manchester United
+            </div>
+            <div>
+              Position: 
+              Midfielder
+            </div>
+            <div>
+              Goals: 
+              12
+            </div>
+          </div>
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Kevin De Bruyne
+            </div>
+            <div>
+              Team: 
+              Manchester City
+            </div>
+            <div>
+              Position: 
+              Midfielder
+            </div>
+            <div>
+              Goals: 
+              10
+            </div>
+          </div>
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Morgan Gibbs-White
+            </div>
+            <div>
+              Team: 
+              Nottingham Forest
+            </div>
+            <div>
+              Position: 
+              Midfielder
+            </div>
+            <div>
+              Goals: 
+              10
+            </div>
+          </div>
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Anthony Gordon
+            </div>
+            <div>
+              Team: 
+              Newcastle United
+            </div>
+            <div>
+              Position: 
+              Midfielder
+            </div>
+            <div>
+              Goals: 
+              10
+            </div>
+          </div>
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Pascal Groß
+            </div>
+            <div>
+              Team: 
+              Brighton & Hove Albion
+            </div>
+            <div>
+              Position: 
+              Midfielder
+            </div>
+            <div>
+              Goals: 
+              8
+            </div>
+          </div>
+          <div
+            class="text-xl border-2 border-gray-400 rounded-md p-2 flex flex-col justify-center items-center cursor-default hover:text-white hover:bg-purple-500 hover:border-purple-500"
+          >
+            <div>
+              Name: 
+              Brennan Johnson
+            </div>
+            <div>
+              Team: 
+              Tottenham Hotspur
+            </div>
+            <div>
+              Position: 
+              Forward
+            </div>
+            <div>
+              Goals: 
+              9
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>,

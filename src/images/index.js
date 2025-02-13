@@ -30,38 +30,34 @@ import win from './win.svg'
 import draw from './draw.svg'
 import loss from './loss.svg'
 
-import players from './players.png'
-
 export const news = {
-    news1, news2, news3, news4
+	news1, news2, news3, news4
 }
 
 export const statuses = {
-    win, draw, loss
+	win, draw, loss
 }
 
-export { players }
-
 export default {
-    premierLeagueLogo,
-    arsenal,
-    astonVilla,
-    brighton,
-    burnley,
-    chelsea,
-    crystalPalace,
-    everton,
-    fulham,
-    leeds,
-    leicester,
-    liverpool,
-    manCity,
-    manUtd,
-    newcastle,
-    sheffield,
-    southampton,
-    tottenham,
-    westBrom,
-    westHam,
-    wolves
+	premierLeagueLogo,
+	arsenal,
+	astonVilla,
+	brighton,
+	burnley,
+	chelsea,
+	crystalPalace,
+	everton,
+	fulham,
+	leeds,
+	leicester,
+	liverpool,
+	manCity,
+	manUtd,
+	newcastle,
+	sheffield,
+	southampton,
+	tottenham,
+	westBrom,
+	westHam,
+	wolves
 }
