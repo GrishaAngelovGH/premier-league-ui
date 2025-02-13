@@ -40,35 +40,35 @@ exports[`should render component 1`] = `
               <a
                 class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b border-white hover:border-b-0"
                 data-discover="true"
-                href="/content"
+                href="/content/matches"
               >
                 matches
               </a>
               <a
                 class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
                 data-discover="true"
-                href="/content"
+                href="/content/news"
               >
                 news
               </a>
               <a
                 class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
                 data-discover="true"
-                href="/content"
+                href="/content/standings"
               >
                 standings
               </a>
               <a
                 class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
                 data-discover="true"
-                href="/content"
+                href="/content/stats"
               >
                 stats
               </a>
               <a
                 class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
                 data-discover="true"
-                href="/content"
+                href="/content/players"
               >
                 players
               </a>
@@ -79,7 +79,7 @@ exports[`should render component 1`] = `
               class="flex flex-col md:flex-row text-sm md:text-base"
             >
               <div
-                class="md:w-1/2 border"
+                class="md:w-1/2 border-b md:border-l md:last:border-r border-gray-400"
               >
                 <div
                   class="flex justify-between cursor-pointer hover:bg-gray-200"
@@ -137,7 +137,7 @@ exports[`should render component 1`] = `
                 </div>
               </div>
               <div
-                class="md:w-1/2 border"
+                class="md:w-1/2 border-b md:border-l md:last:border-r border-gray-400"
               >
                 <div
                   class="flex justify-between cursor-pointer hover:bg-gray-200"
@@ -199,7 +199,7 @@ exports[`should render component 1`] = `
               class="flex flex-col md:flex-row text-sm md:text-base"
             >
               <div
-                class="md:w-1/2 border"
+                class="md:w-1/2 border-b md:border-l md:last:border-r border-gray-400"
               >
                 <div
                   class="flex justify-between cursor-pointer hover:bg-gray-200"
@@ -257,7 +257,7 @@ exports[`should render component 1`] = `
                 </div>
               </div>
               <div
-                class="md:w-1/2 border"
+                class="md:w-1/2 border-b md:border-l md:last:border-r border-gray-400"
               >
                 <div
                   class="flex justify-between cursor-pointer hover:bg-gray-200"
@@ -315,7 +315,7 @@ exports[`should render component 1`] = `
               class="flex flex-col md:flex-row text-sm md:text-base"
             >
               <div
-                class="md:w-1/2 border"
+                class="md:w-1/2 border-b md:border-l md:last:border-r border-gray-400"
               >
                 <div
                   class="flex justify-between cursor-pointer hover:bg-gray-200"
@@ -369,7 +369,7 @@ exports[`should render component 1`] = `
                 </div>
               </div>
               <div
-                class="md:w-1/2 border"
+                class="md:w-1/2 border-b md:border-l md:last:border-r border-gray-400"
               >
                 <div
                   class="flex justify-between cursor-pointer hover:bg-gray-200"
@@ -428,7 +428,7 @@ exports[`should render component 1`] = `
             class="flex flex-col justify-center items-center"
           >
             <div
-              class="w-full text-center border p-2 text-gray-500"
+              class="w-full text-center border border-t-0 border-gray-400 p-2 text-gray-500"
             >
               <div>
                 All times are in Eastern European Time
@@ -497,35 +497,35 @@ exports[`should render component 1`] = `
             <a
               class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b border-white hover:border-b-0"
               data-discover="true"
-              href="/content"
+              href="/content/matches"
             >
               matches
             </a>
             <a
               class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
               data-discover="true"
-              href="/content"
+              href="/content/news"
             >
               news
             </a>
             <a
               class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
               data-discover="true"
-              href="/content"
+              href="/content/standings"
             >
               standings
             </a>
             <a
               class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
               data-discover="true"
-              href="/content"
+              href="/content/stats"
             >
               stats
             </a>
             <a
               class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
               data-discover="true"
-              href="/content"
+              href="/content/players"
             >
               players
             </a>
@@ -536,7 +536,7 @@ exports[`should render component 1`] = `
             class="flex flex-col md:flex-row text-sm md:text-base"
           >
             <div
-              class="md:w-1/2 border"
+              class="md:w-1/2 border-b md:border-l md:last:border-r border-gray-400"
             >
               <div
                 class="flex justify-between cursor-pointer hover:bg-gray-200"
@@ -594,7 +594,7 @@ exports[`should render component 1`] = `
               </div>
             </div>
             <div
-              class="md:w-1/2 border"
+              class="md:w-1/2 border-b md:border-l md:last:border-r border-gray-400"
             >
               <div
                 class="flex justify-between cursor-pointer hover:bg-gray-200"
@@ -656,7 +656,7 @@ exports[`should render component 1`] = `
             class="flex flex-col md:flex-row text-sm md:text-base"
           >
             <div
-              class="md:w-1/2 border"
+              class="md:w-1/2 border-b md:border-l md:last:border-r border-gray-400"
             >
               <div
                 class="flex justify-between cursor-pointer hover:bg-gray-200"
@@ -714,7 +714,7 @@ exports[`should render component 1`] = `
               </div>
             </div>
             <div
-              class="md:w-1/2 border"
+              class="md:w-1/2 border-b md:border-l md:last:border-r border-gray-400"
             >
               <div
                 class="flex justify-between cursor-pointer hover:bg-gray-200"
@@ -772,7 +772,7 @@ exports[`should render component 1`] = `
             class="flex flex-col md:flex-row text-sm md:text-base"
           >
             <div
-              class="md:w-1/2 border"
+              class="md:w-1/2 border-b md:border-l md:last:border-r border-gray-400"
             >
               <div
                 class="flex justify-between cursor-pointer hover:bg-gray-200"
@@ -826,7 +826,7 @@ exports[`should render component 1`] = `
               </div>
             </div>
             <div
-              class="md:w-1/2 border"
+              class="md:w-1/2 border-b md:border-l md:last:border-r border-gray-400"
             >
               <div
                 class="flex justify-between cursor-pointer hover:bg-gray-200"
@@ -885,7 +885,7 @@ exports[`should render component 1`] = `
           class="flex flex-col justify-center items-center"
         >
           <div
-            class="w-full text-center border p-2 text-gray-500"
+            class="w-full text-center border border-t-0 border-gray-400 p-2 text-gray-500"
           >
             <div>
               All times are in Eastern European Time

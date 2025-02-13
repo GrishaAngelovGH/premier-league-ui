@@ -20,7 +20,7 @@ const PageHeader = () => {
 						const linkClass = i === 0 ? 'border-b border-white hover:border-b-0' : 'border-b-0'
 
 						return (
-							<Link to='/content' key={i} className={`text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md ${linkClass}`}>
+							<Link to={`/content/${v}`} key={i} className={`text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md ${linkClass}`}>
 								{v}
 							</Link>
 						)

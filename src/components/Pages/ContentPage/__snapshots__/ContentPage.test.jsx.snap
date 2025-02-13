@@ -40,42 +40,37 @@ exports[`should render ContentPage component 1`] = `
             class="flex gap-4 overflow-auto justify-evenly"
           >
             <a
-              class="text-decoration-none text-white text-uppercase border-b border-white hover:border-b-0"
+              class="text-decoration-none text-white uppercase border-b border-white hover:border-b-0"
               data-discover="true"
               href="/content/matches"
-              id="0"
             >
               matches
             </a>
             <a
-              class="text-decoration-none text-white text-uppercase border-b-0"
+              class="text-decoration-none text-white uppercase border-b-0"
               data-discover="true"
               href="/content/news"
-              id="1"
             >
               news
             </a>
             <a
-              class="text-decoration-none text-white text-uppercase border-b-0"
+              class="text-decoration-none text-white uppercase border-b-0"
               data-discover="true"
               href="/content/standings"
-              id="2"
             >
               standings
             </a>
             <a
-              class="text-decoration-none text-white text-uppercase border-b-0"
+              class="text-decoration-none text-white uppercase border-b-0"
               data-discover="true"
               href="/content/stats"
-              id="3"
             >
               stats
             </a>
             <a
-              class="text-decoration-none text-white text-uppercase border-b-0"
+              class="text-decoration-none text-white uppercase border-b-0"
               data-discover="true"
               href="/content/players"
-              id="4"
             >
               players
             </a>
@@ -108,7 +103,7 @@ exports[`should render ContentPage component 1`] = `
             class="flex flex-col md:flex-row text-sm md:text-base"
           >
             <div
-              class="md:w-1/2 border"
+              class="md:w-1/2 border-b md:border-l md:last:border-r border-gray-400"
             >
               <div
                 class="flex justify-between cursor-pointer hover:bg-gray-200"
@@ -166,7 +161,7 @@ exports[`should render ContentPage component 1`] = `
               </div>
             </div>
             <div
-              class="md:w-1/2 border"
+              class="md:w-1/2 border-b md:border-l md:last:border-r border-gray-400"
             >
               <div
                 class="flex justify-between cursor-pointer hover:bg-gray-200"
@@ -264,42 +259,37 @@ exports[`should render ContentPage component 1`] = `
           class="flex gap-4 overflow-auto justify-evenly"
         >
           <a
-            class="text-decoration-none text-white text-uppercase border-b border-white hover:border-b-0"
+            class="text-decoration-none text-white uppercase border-b border-white hover:border-b-0"
             data-discover="true"
             href="/content/matches"
-            id="0"
           >
             matches
           </a>
           <a
-            class="text-decoration-none text-white text-uppercase border-b-0"
+            class="text-decoration-none text-white uppercase border-b-0"
             data-discover="true"
             href="/content/news"
-            id="1"
           >
             news
           </a>
           <a
-            class="text-decoration-none text-white text-uppercase border-b-0"
+            class="text-decoration-none text-white uppercase border-b-0"
             data-discover="true"
             href="/content/standings"
-            id="2"
           >
             standings
           </a>
           <a
-            class="text-decoration-none text-white text-uppercase border-b-0"
+            class="text-decoration-none text-white uppercase border-b-0"
             data-discover="true"
             href="/content/stats"
-            id="3"
           >
             stats
           </a>
           <a
-            class="text-decoration-none text-white text-uppercase border-b-0"
+            class="text-decoration-none text-white uppercase border-b-0"
             data-discover="true"
             href="/content/players"
-            id="4"
           >
             players
           </a>
@@ -332,7 +322,7 @@ exports[`should render ContentPage component 1`] = `
           class="flex flex-col md:flex-row text-sm md:text-base"
         >
           <div
-            class="md:w-1/2 border"
+            class="md:w-1/2 border-b md:border-l md:last:border-r border-gray-400"
           >
             <div
               class="flex justify-between cursor-pointer hover:bg-gray-200"
@@ -390,7 +380,7 @@ exports[`should render ContentPage component 1`] = `
             </div>
           </div>
           <div
-            class="md:w-1/2 border"
+            class="md:w-1/2 border-b md:border-l md:last:border-r border-gray-400"
           >
             <div
               class="flex justify-between cursor-pointer hover:bg-gray-200"

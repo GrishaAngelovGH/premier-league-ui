@@ -7,7 +7,7 @@ const Timetable = ({ content }) => (
 				<div key={i} className='flex flex-col md:flex-row text-sm md:text-base'>
 					{
 						v.map((item => (
-							<div key={item.id} className='md:w-1/2 border'>
+							<div key={item.id} className='md:w-1/2 border-b md:border-l md:last:border-r border-gray-400'>
 								<div className='flex justify-between cursor-pointer hover:bg-gray-200'>
 									<div className='p-2 flex flex-col'>
 										{

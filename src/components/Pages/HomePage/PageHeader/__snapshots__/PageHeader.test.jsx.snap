@@ -34,35 +34,35 @@ exports[`should render HomePage/PageHeader component 1`] = `
           <a
             class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b border-white hover:border-b-0"
             data-discover="true"
-            href="/content"
+            href="/content/matches"
           >
             matches
           </a>
           <a
             class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
             data-discover="true"
-            href="/content"
+            href="/content/news"
           >
             news
           </a>
           <a
             class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
             data-discover="true"
-            href="/content"
+            href="/content/standings"
           >
             standings
           </a>
           <a
             class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
             data-discover="true"
-            href="/content"
+            href="/content/stats"
           >
             stats
           </a>
           <a
             class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
             data-discover="true"
-            href="/content"
+            href="/content/players"
           >
             players
           </a>
@@ -100,35 +100,35 @@ exports[`should render HomePage/PageHeader component 1`] = `
         <a
           class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b border-white hover:border-b-0"
           data-discover="true"
-          href="/content"
+          href="/content/matches"
         >
           matches
         </a>
         <a
           class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
           data-discover="true"
-          href="/content"
+          href="/content/news"
         >
           news
         </a>
         <a
           class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
           data-discover="true"
-          href="/content"
+          href="/content/standings"
         >
           standings
         </a>
         <a
           class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
           data-discover="true"
-          href="/content"
+          href="/content/stats"
         >
           stats
         </a>
         <a
           class="text-white text-decoration-none uppercase p-1 hover:bg-purple-800 hover:rounded-md border-b-0"
           data-discover="true"
-          href="/content"
+          href="/content/players"
         >
           players
         </a>

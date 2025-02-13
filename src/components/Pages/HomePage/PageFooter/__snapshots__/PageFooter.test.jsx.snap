@@ -9,7 +9,7 @@ exports[`should render PageFooter component 1`] = `
         class="flex flex-col justify-center items-center"
       >
         <div
-          class="w-full text-center border p-2 text-gray-500"
+          class="w-full text-center border border-t-0 border-gray-400 p-2 text-gray-500"
         >
           <div>
             All times are in Eastern European Time
@@ -45,7 +45,7 @@ exports[`should render PageFooter component 1`] = `
       class="flex flex-col justify-center items-center"
     >
       <div
-        class="w-full text-center border p-2 text-gray-500"
+        class="w-full text-center border border-t-0 border-gray-400 p-2 text-gray-500"
       >
         <div>
           All times are in Eastern European Time

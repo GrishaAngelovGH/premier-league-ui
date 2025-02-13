@@ -1,28 +1,21 @@
-import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 
 const Menu = () => {
-	const [tabIndex, setTabIndex] = useState(0)
-
-	const handleTabClick = ({ target }) => {
-		setTabIndex(parseInt(target.id))
-	}
-
 	const categories = ['matches', 'news', 'standings', 'stats', 'players']
+	const currentPath = useLocation().pathname
+	const currentLocation = currentPath.substring(currentPath.lastIndexOf('/') + 1)
 
 	return (
 		<div className='flex gap-4 overflow-auto justify-evenly'>
 			{
 				categories.map((v, i) => {
-					const linkClass = i === tabIndex ? 'border-b border-white hover:border-b-0' : 'border-b-0'
+					const linkClass = v === currentLocation ? 'border-b border-white hover:border-b-0' : 'border-b-0'
 
 					return (
 						<Link
 							key={i}
-							id={i}
 							to={`/content/${v}`}
-							className={`text-decoration-none text-white text-uppercase ${linkClass}`}
-							onClick={handleTabClick}
+							className={`text-decoration-none text-white uppercase ${linkClass}`}
 						>
 							{v}
 						</Link>

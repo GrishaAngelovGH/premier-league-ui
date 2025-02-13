@@ -8,7 +8,7 @@ export const ChevronDown = () => (
 
 const PageFooter = () => (
 	<div className="flex flex-col justify-center items-center">
-		<div className='w-full text-center border p-2 text-gray-500'>
+		<div className='w-full text-center border border-t-0 border-gray-400 p-2 text-gray-500'>
 			<div>All times are in Eastern European Time</div>
 		</div>
 
