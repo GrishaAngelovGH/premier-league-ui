@@ -5,11 +5,146 @@ exports[`should render Table component 1`] = `
   "asFragment": [Function],
   "baseElement": <body>
     <div>
+      <div
+        class="overflow-auto mb-5"
+      >
+        <table
+          class="w-full"
+        >
+          <thead
+            class="text-gray-500"
+          >
+            <tr>
+              <th
+                scope="col"
+              >
+                Club
+              </th>
+              <th
+                scope="col"
+              >
+                MP
+              </th>
+              <th
+                scope="col"
+              >
+                W
+              </th>
+              <th
+                scope="col"
+              >
+                D
+              </th>
+              <th
+                scope="col"
+              >
+                L
+              </th>
+              <th
+                scope="col"
+              >
+                GF
+              </th>
+              <th
+                scope="col"
+              >
+                GA
+              </th>
+              <th
+                scope="col"
+              >
+                GD
+              </th>
+              <th
+                scope="col"
+              >
+                Pts
+              </th>
+              <th
+                scope="col"
+              >
+                Last 5
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td
+                class="flex w-[200px]"
+              >
+                <span
+                  class="pr-2"
+                >
+                  1
+                </span>
+                <img
+                  src="tottenham-image"
+                  width="25"
+                />
+                <span
+                  class="pl-2"
+                >
+                  Tottenham
+                </span>
+              </td>
+              <td>
+                10
+              </td>
+              <td>
+                6
+              </td>
+              <td>
+                3
+              </td>
+              <td>
+                1
+              </td>
+              <td>
+                21
+              </td>
+              <td>
+                9
+              </td>
+              <td>
+                12
+              </td>
+              <td>
+                21
+              </td>
+              <td
+                class="flex gap-2 w-[100px]"
+              >
+                <img
+                  src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20width='16px'%20height='16px'%20viewBox='0%200%2016%2016'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='Draw'%3e%3ccircle%20id='Oval'%20fill='%239AA0A6'%20cx='8'%20cy='8'%20r='8'%3e%3c/circle%3e%3cpolygon%20id='Path'%20fill='%23FFFFFF'%20points='5%207%2011%207%2011%209%205%209'%3e%3c/polygon%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
+                />
+                <img
+                  src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20width='16px'%20height='16px'%20viewBox='0%200%2016%2016'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='Win'%3e%3ccircle%20id='Oval'%20fill='%233AA757'%20cx='8'%20cy='8'%20r='8'%3e%3c/circle%3e%3cpolygon%20id='Path'%20fill='%23FFFFFF'%20fill-rule='nonzero'%20points='6.4%209.76%204.32%207.68%203.2%208.8%206.4%2012%2012.8%205.6%2011.68%204.48'%3e%3c/polygon%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
+                />
+                <img
+                  src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20width='16px'%20height='16px'%20viewBox='0%200%2016%2016'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='Win'%3e%3ccircle%20id='Oval'%20fill='%233AA757'%20cx='8'%20cy='8'%20r='8'%3e%3c/circle%3e%3cpolygon%20id='Path'%20fill='%23FFFFFF'%20fill-rule='nonzero'%20points='6.4%209.76%204.32%207.68%203.2%208.8%206.4%2012%2012.8%205.6%2011.68%204.48'%3e%3c/polygon%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
+                />
+                <img
+                  src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20width='16px'%20height='16px'%20viewBox='0%200%2016%2016'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='Win'%3e%3ccircle%20id='Oval'%20fill='%233AA757'%20cx='8'%20cy='8'%20r='8'%3e%3c/circle%3e%3cpolygon%20id='Path'%20fill='%23FFFFFF'%20fill-rule='nonzero'%20points='6.4%209.76%204.32%207.68%203.2%208.8%206.4%2012%2012.8%205.6%2011.68%204.48'%3e%3c/polygon%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
+                />
+                <img
+                  src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20width='16px'%20height='16px'%20viewBox='0%200%2016%2016'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='Win'%3e%3ccircle%20id='Oval'%20fill='%233AA757'%20cx='8'%20cy='8'%20r='8'%3e%3c/circle%3e%3cpolygon%20id='Path'%20fill='%23FFFFFF'%20fill-rule='nonzero'%20points='6.4%209.76%204.32%207.68%203.2%208.8%206.4%2012%2012.8%205.6%2011.68%204.48'%3e%3c/polygon%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="overflow-auto mb-5"
+    >
       <table
-        class="table table-hover table-sm table-responsive-sm"
+        class="w-full"
       >
         <thead
-          class="text-secondary"
+          class="text-gray-500"
         >
           <tr>
             <th
@@ -66,7 +201,9 @@ exports[`should render Table component 1`] = `
         </thead>
         <tbody>
           <tr>
-            <th>
+            <td
+              class="flex w-[200px]"
+            >
               <span
                 class="pr-2"
               >
@@ -81,7 +218,7 @@ exports[`should render Table component 1`] = `
               >
                 Tottenham
               </span>
-            </th>
+            </td>
             <td>
               10
             </td>
@@ -106,7 +243,9 @@ exports[`should render Table component 1`] = `
             <td>
               21
             </td>
-            <td>
+            <td
+              class="flex gap-2 w-[100px]"
+            >
               <img
                 src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20width='16px'%20height='16px'%20viewBox='0%200%2016%2016'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='Draw'%3e%3ccircle%20id='Oval'%20fill='%239AA0A6'%20cx='8'%20cy='8'%20r='8'%3e%3c/circle%3e%3cpolygon%20id='Path'%20fill='%23FFFFFF'%20points='5%207%2011%207%2011%209%205%209'%3e%3c/polygon%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
               />
@@ -127,129 +266,6 @@ exports[`should render Table component 1`] = `
         </tbody>
       </table>
     </div>
-  </body>,
-  "container": <div>
-    <table
-      class="table table-hover table-sm table-responsive-sm"
-    >
-      <thead
-        class="text-secondary"
-      >
-        <tr>
-          <th
-            scope="col"
-          >
-            Club
-          </th>
-          <th
-            scope="col"
-          >
-            MP
-          </th>
-          <th
-            scope="col"
-          >
-            W
-          </th>
-          <th
-            scope="col"
-          >
-            D
-          </th>
-          <th
-            scope="col"
-          >
-            L
-          </th>
-          <th
-            scope="col"
-          >
-            GF
-          </th>
-          <th
-            scope="col"
-          >
-            GA
-          </th>
-          <th
-            scope="col"
-          >
-            GD
-          </th>
-          <th
-            scope="col"
-          >
-            Pts
-          </th>
-          <th
-            scope="col"
-          >
-            Last 5
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th>
-            <span
-              class="pr-2"
-            >
-              1
-            </span>
-            <img
-              src="tottenham-image"
-              width="25"
-            />
-            <span
-              class="pl-2"
-            >
-              Tottenham
-            </span>
-          </th>
-          <td>
-            10
-          </td>
-          <td>
-            6
-          </td>
-          <td>
-            3
-          </td>
-          <td>
-            1
-          </td>
-          <td>
-            21
-          </td>
-          <td>
-            9
-          </td>
-          <td>
-            12
-          </td>
-          <td>
-            21
-          </td>
-          <td>
-            <img
-              src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20width='16px'%20height='16px'%20viewBox='0%200%2016%2016'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='Draw'%3e%3ccircle%20id='Oval'%20fill='%239AA0A6'%20cx='8'%20cy='8'%20r='8'%3e%3c/circle%3e%3cpolygon%20id='Path'%20fill='%23FFFFFF'%20points='5%207%2011%207%2011%209%205%209'%3e%3c/polygon%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
-            />
-            <img
-              src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20width='16px'%20height='16px'%20viewBox='0%200%2016%2016'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='Win'%3e%3ccircle%20id='Oval'%20fill='%233AA757'%20cx='8'%20cy='8'%20r='8'%3e%3c/circle%3e%3cpolygon%20id='Path'%20fill='%23FFFFFF'%20fill-rule='nonzero'%20points='6.4%209.76%204.32%207.68%203.2%208.8%206.4%2012%2012.8%205.6%2011.68%204.48'%3e%3c/polygon%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
-            />
-            <img
-              src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20width='16px'%20height='16px'%20viewBox='0%200%2016%2016'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='Win'%3e%3ccircle%20id='Oval'%20fill='%233AA757'%20cx='8'%20cy='8'%20r='8'%3e%3c/circle%3e%3cpolygon%20id='Path'%20fill='%23FFFFFF'%20fill-rule='nonzero'%20points='6.4%209.76%204.32%207.68%203.2%208.8%206.4%2012%2012.8%205.6%2011.68%204.48'%3e%3c/polygon%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
-            />
-            <img
-              src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20width='16px'%20height='16px'%20viewBox='0%200%2016%2016'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='Win'%3e%3ccircle%20id='Oval'%20fill='%233AA757'%20cx='8'%20cy='8'%20r='8'%3e%3c/circle%3e%3cpolygon%20id='Path'%20fill='%23FFFFFF'%20fill-rule='nonzero'%20points='6.4%209.76%204.32%207.68%203.2%208.8%206.4%2012%2012.8%205.6%2011.68%204.48'%3e%3c/polygon%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
-            />
-            <img
-              src="data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20width='16px'%20height='16px'%20viewBox='0%200%2016%2016'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='Win'%3e%3ccircle%20id='Oval'%20fill='%233AA757'%20cx='8'%20cy='8'%20r='8'%3e%3c/circle%3e%3cpolygon%20id='Path'%20fill='%23FFFFFF'%20fill-rule='nonzero'%20points='6.4%209.76%204.32%207.68%203.2%208.8%206.4%2012%2012.8%205.6%2011.68%204.48'%3e%3c/polygon%3e%3c/g%3e%3c/g%3e%3c/svg%3e"
-            />
-          </td>
-        </tr>
-      </tbody>
-    </table>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
