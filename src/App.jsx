@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { HomePage, ContentPage } from 'components/Pages'
 import AppContext from 'context'
 
+import { news } from 'images'
+
 const matches = [
   [
     {
@@ -53,6 +55,34 @@ const matches = [
   ]
 ]
 
+const newsItems = [
+  {
+    title: 'Guardiola rules out new Manchester City signings in January',
+    source: 'Goal.com',
+    time: '4 days ago',
+    image: news['news1']
+  },
+  {
+    title: `'Welbeck said it wasn't a penalty!' – Henderson fumes at VAR after 
+        Liverpool are held by Brighton`,
+    source: 'Goal.com',
+    time: '3 days ago',
+    image: news['news2']
+  },
+  {
+    title: 'Chelsea 0-0 Tottenham Hotspur: Spurs return to the top of the Premier League',
+    source: 'BBC News',
+    time: '2 days ago',
+    image: news['news3']
+  },
+  {
+    title: 'Return of supporters to Stamford Bridge | Official Site | Chelsea Football Club',
+    source: 'Chelsea FC',
+    time: '5 days ago',
+    image: news['news4']
+  }
+]
+
 function App() {
   return (
     <Router>
@@ -63,7 +93,7 @@ function App() {
           </AppContext.Provider>
         )} />
         <Route path='/content/*' element={(
-          <AppContext.Provider value={{ matches }}>
+          <AppContext.Provider value={{ matches, newsItems }}>
             <ContentPage />
           </AppContext.Provider>
         )} />
