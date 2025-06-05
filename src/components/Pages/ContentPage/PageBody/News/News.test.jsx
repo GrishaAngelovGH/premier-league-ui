@@ -1,4 +1,5 @@
 import { render } from '@testing-library/react'
+import AppContext from 'context'
 
 import News from './News'
 
@@ -12,7 +13,11 @@ test('should render News component', () => {
 		}
 	]
 
-	const view = render(<News newsItems={newsItems} />)
+	const view = render(
+		<AppContext.Provider value={{ newsItems }}>
+			<News />
+		</AppContext.Provider>
+	)
 
 	expect(view).toMatchSnapshot()
 })
